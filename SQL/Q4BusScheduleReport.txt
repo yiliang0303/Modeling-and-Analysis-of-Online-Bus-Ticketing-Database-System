@@ -1,0 +1,31 @@
+SQL> @@D:\QuarterlyBusScheduleReport.txt;
+
+                                                    GOGO BUS COMPANY                                                    
+                                            =================================                                           
+                                                                                                                        
+                                       FOURTH QUARTER OF BUS SCHEDULE IN YEAR 2018                             16-AUG-19
+                                                                                                               Page:   1
+                                                                                                                        
+BUS DEPARTUREPOINT                 DESTINATION                    SCHEDULEID                                            
+--- ------------------------------ ------------------------------ --------------                                        
+S01 Kuala Lumpur                   Penang                         K201809281530P                                        
+                                                                  K201810271030P                                        
+                                                                  K201811281530P                                        
+                                                                  K201812061330P                                        
+                                                                  K201812291030P                                        
+                                                                                                                        
+                                                                                                                        
+    Penang                         Kuala Lumpur                   P201809271330K                                        
+                                                                  P201810051230K                                        
+                                                                  P201810091030K                                        
+                                                                  P201811101330K                                        
+                                                                  P201811211130K                                        
+                                                                  P201812041530K                                        
+                                                                  P201812121230K                                        
+                                                                  P201812211030K                                        
+                                                                                                                        
+                                                                                                                        
+
+13 rows selected.
+
+SQL> spool off

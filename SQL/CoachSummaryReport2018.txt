@@ -1,0 +1,46 @@
+Please enter the YEAR : 2018
+old   3: where departureDate between '01-JAN-&year' and '30-DEC-&year'
+new   3: where departureDate between '01-JAN-2018' and '30-DEC-2018'
+
+                  GOGO BUS COMPANY                  
+          =================================         
+            COACH SUMMARY REPORT IN 2018            
+                                           Page:   1
+                                                    
+Departure Point      Destination              Number
+-------------------- -------------------- ----------
+Kedah                Penang                        4
+                     Seberang Perai               13
+                     Kuala Lumpur                 34
+********************                      ----------
+TOTAL :                                           51
+                                                    
+Kuala Lumpur         Seberang Perai               22
+                     Kedah                        24
+                     Penang                       50
+********************                      ----------
+TOTAL :                                           96
+                                                    
+Penang               Seberang Perai               14
+                     Kedah                        22
+                     Kuala Lumpur                 44
+********************                      ----------
+TOTAL :                                           80
+                                                    
+Seberang Perai       Kedah                         7
+                     Penang                       18
+                     Kuala Lumpur                 22
+********************                      ----------
+
+                  GOGO BUS COMPANY                  
+          =================================         
+            COACH SUMMARY REPORT IN 2018            
+                                           Page:   2
+                                                    
+Departure Point      Destination              Number
+-------------------- -------------------- ----------
+TOTAL :                                           47
+                                                    
+
+12 rows selected.
+

@@ -1,0 +1,26 @@
+SQL> @@d:\Report3.txt;
+
+System altered.
+
+Most Bus Seat Reserved by Customer
+=================================
+Enter the number of seat >5
+
+Top 5 Bus Seat Reserved by Customer
+====================================================
+old   8: where rownum <= &num
+new   8: where rownum <= 5
+
+                                                    GOGO BUS COMPANY                                                    
+                                            =================================                                           
+                                                                                                                        
+                                           Most Bus Seat Reserved by Customer                                           
+Seat Number      Total                                                                                                  
+----------- ----------                                                                                                  
+         72         32                                                                                                  
+         71         32                                                                                                  
+         74         28                                                                                                  
+         73         26                                                                                                  
+         51         18                                                                                                  
+
+SQL> spool off;

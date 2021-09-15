@@ -1,0 +1,26 @@
+set pagesize 30;
+set linesize 52;
+
+spool d:/CoachSummaryReport2018.txt
+
+accept year char prompt 'Please enter the YEAR : '
+
+TTITLE CENTER 'GOGO BUS COMPANY' SKIP 1 - 
+CENTER ================================= SKIP 1 -
+CENTER'COACH SUMMARY REPORT IN &year' SKIP 1- 
+RIGHT 'Page:' FORMAT 999 SQL.PNO SKIP 2
+
+break on departurePoint skip 1
+
+column departurePoint heading 'Departure Point'
+column destination heading 'Destination'
+
+select departurePoint, destination, count(destination) as "Number"
+from schedule
+where departureDate between '01-JAN-&year' and '30-DEC-&year'
+group by departurePoint, destination
+order by departurePoint, count(destination);
+compute sum label "TOTAL : " of Number on departurePoint   
+
+spool off
+

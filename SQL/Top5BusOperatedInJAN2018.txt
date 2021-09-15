@@ -1,0 +1,27 @@
+SEARCH TOP BUS OPERATED IN MONTH
+Please enter the YEAR : 2018
+Please enter the MONTH : jan
+Enter number for top bus operated : 5
+old   3: where departureDate between '01-&month-&year' and last_day(to_Date('01-&month-&year'))
+new   3: where departureDate between '01-jan-2018' and last_day(to_Date('01-jan-2018'))
+old   6: where rownum <= &num
+new   6: where rownum <= 5
+
+                   GOGO BUS COMPANY                   
+           =================================          
+            TOP 5 BUS OPERATED IN jan/2018            
+                                             Page:   1
+                                                      
+BUS PLATENU MODEL                 TOTALSEAT Coach(qty)
+--- ------- -------------------- ---------- ----------
+D02 PNF9578 Double-Decker                40         46
+                                                      
+S05 PHD2333 Single-Decker                28         46
+                                                      
+D03 PGH6781 Double-Decker                38         46
+                                                      
+S03 VNP1239 Single-Decker                28         46
+                                                      
+S06 PNF9578 Single-Decker                27         46
+                                                      
+

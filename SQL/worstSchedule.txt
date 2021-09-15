@@ -1,0 +1,35 @@
+set pagesize 30
+set linesize 89
+spool d:/MonthlyTop3WorstScheduleInJun2018.txt
+
+prompt  Search the Top Worst Schedule Reserved
+prompt *--------------------------------------*
+accept btm char prompt 'Enter the Number for Top worst Schedule Reserved : '
+accept year char prompt'Enter YEAR : '
+accept month char prompt'Enter MONTH : '
+
+TTITLE CENTER 'GOGO BUS COMPANY' SKIP 1 - 
+CENTER ================================= SKIP 1 -
+CENTER'Monthly Top &btm Worst Schedule in &month &year' SKIP 1-
+RIGHT 'Page:' FORMAT 999 SQL.PNO SKIP 2
+
+column departurePoint format A20
+column destination format A20
+
+column scheduleID heading 'Schedule ID'
+column departurePoint heading 'Departure Point'
+column destination heading 'Destination'
+column departureDate heading 'Date'
+
+Select * from
+(Select c.scheduleID,c.departurePoint,c.destination,c.departureDate,b.TotalSeat,count(t.ticketID) as "Ticket Sold"
+From schedule c, ticket t, sales s,bus b
+Where b.busid = c.busid and
+      c.scheduleID = t.scheduleID and
+      t.salesID = s.salesID and
+      S_Date between '01-&month-&year' and last_day(to_Date('01-&month-&year'))
+Group By c.departurePoint,c.destination,c.departureDate,c.scheduleID,b.TotalSeat
+order by "Ticket Sold" asc)
+where rownum <= &btm;
+
+spool off

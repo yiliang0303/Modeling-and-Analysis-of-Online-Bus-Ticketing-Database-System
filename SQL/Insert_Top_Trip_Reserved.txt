@@ -1,0 +1,31 @@
+set pagesize 30
+set linesize 120
+
+prompt  Search Top Most Trip Reserved by Percentage
+prompt *-------------------------------------------*
+accept top char prompt'Enter the Number of Most Trip Reserved by Percentage>'
+accept year char prompt'Enter Year>'
+accept month char prompt'Enter Month>'
+
+TTITLE CENTER 'GOGO BUS COMPANY' SKIP 1 - 
+CENTER ================================= SKIP 1 -
+CENTER'Top &top Most Trip Reserved by Percentage in &month &year' SKIP 1-
+RIGHT 'Page:' FORMAT 999 SQL.PNO SKIP 2
+
+column departurePoint format A25
+column destination format A25
+
+column departurePoint heading 'Departure Point'
+column destination heading 'Destination'
+column "Percentage of Reserved(%)" format 990.99
+
+Select * from
+(Select c.departurePoint,c.destination,sum(b.TotalSeat) as "Seat Available",count(t.ticketID) as "Ticket Sold(Qty)",count(t.ticketID)/sum(b.TotalSeat) as "Percentage of Reserved(%)"
+From schedule c, ticket t, sales s,bus b
+Where b.busid = c.busid and
+      c.scheduleID = t.scheduleID and
+      t.salesID = s.salesID and
+      S_Date between '01-&month-&year' and last_day(to_Date('01-&month-&year'))
+Group By c.departurePoint,c.destination
+order by "Percentage of Reserved(%)" desc)
+where rownum <= &top

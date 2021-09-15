@@ -1,0 +1,23 @@
+SQL> @@ D:\Insert_Top_Trip_Reserved.txt;
+Search Top Most Trip Reserved by Percentage
+*-------------------------------------------*
+Enter the Number of Most Trip Reserved by Percentage>2
+Enter Year>2018
+Enter Month>Jun
+ 11  /
+old   7:       S_Date between '01-&month-&year' and last_day(to_Date('01-&month-&year'))
+new   7:       S_Date between '01-Jun-2018' and last_day(to_Date('01-Jun-2018'))
+old  10: where rownum <= &top
+new  10: where rownum <= 2
+
+                                                    GOGO BUS COMPANY                                                    
+                                            =================================                                           
+                                   Top 2 Most Trip Reserved by Percentage in Jun 2018                                   
+                                                                                                               Page:   1
+                                                                                                                        
+Departure Point           Destination               Seat Available Ticket Sold(Qty) Percentage of Reserved(%)           
+------------------------- ------------------------- -------------- ---------------- -------------------------           
+Kuala Lumpur              Penang                              1148               41                      0.04           
+Penang                    Kuala Lumpur                        1655               57                      0.03           
+
+SQL> spool off;

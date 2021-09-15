@@ -1,0 +1,21 @@
+Search the Top Worst Schedule Reserved
+*--------------------------------------*
+Enter the Number for Top worst Schedule Reserved : 3
+Enter YEAR : 2018
+Enter MONTH : jun
+old   7:       S_Date between '01-&month-&year' and last_day(to_Date('01-&month-&year'))
+new   7:       S_Date between '01-jun-2018' and last_day(to_Date('01-jun-2018'))
+old  10: where rownum <= &btm
+new  10: where rownum <= 3
+
+                                     GOGO BUS COMPANY                                    
+                            =================================                            
+                         Monthly Top 3 Worst Schedule in jun 2018                        
+                                                                                Page:   1
+                                                                                         
+Schedule ID    Departure Point      Destination          Date       TOTALSEAT Ticket Sold
+-------------- -------------------- -------------------- --------- ---------- -----------
+K201806061330P Kuala Lumpur         Penang               06-JUN-18         28           4
+P201806041530K Penang               Kuala Lumpur         04-JUN-18         40           8
+K201806291030P Kuala Lumpur         Penang               29-JUN-18         28          10
+

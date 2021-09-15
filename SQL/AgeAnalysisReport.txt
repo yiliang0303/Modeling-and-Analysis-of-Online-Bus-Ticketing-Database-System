@@ -1,0 +1,13 @@
+SQL> @@D:\AgeReport.txt;
+  7  /
+
+                                                    GOGO BUS COMPANY                                                    
+                                            =================================                                           
+                                              CUSTOMER AGE ANALYSIS REPORT                                              
+                                               WEEK ENDING DATE: 16-AUG-19                                     Page:   1
+                                                                                                                        
+  Under 21      22-30      31-39      40-48 49 and above                                                                
+---------- ---------- ---------- ---------- ------------                                                                
+        31         40         20         28           40                                                                
+
+SQL> spool off;

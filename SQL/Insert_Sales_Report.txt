@@ -1,0 +1,30 @@
+set pagesize 30
+set linesize 120
+compute sum label 'Grand Total' of "Total Price(RM)" on departurePoint on destination SKIP 2
+
+TTITLE CENTER 'GOGO BUS COMPANY' SKIP 1 - 
+CENTER ================================= SKIP 1 -
+CENTER'Yearly Sales Report for 2018' SKIP 1-
+RIGHT 'Page:' FORMAT 999 SQL.PNO SKIP 2
+
+Break on departurePoint on destination SKIP 1
+column departurePoint format A23
+column destination format A23
+
+column scheduleID heading 'Schedule ID'
+column departureDate heading 'Date'
+column departurePoint heading 'Departure Point'
+column destination heading 'Destination'
+column price heading 'Price(RM)' 
+column price format 99.90
+column "Total Price(RM)" format 9999.99
+
+
+Select c.departurePoint,c.destination,c.departureDate,t.price,count(t.ticketID) as "Ticket Sold(Qty)", t.price*count(t.ticketID) as "Total Price(RM)"
+From schedule c, ticket t, sales s
+Where c.scheduleID = t.scheduleID and
+      t.salesID = s.salesID and
+      S_Date between '01-Jan-18' and '31-Dec-18'
+Group By c.departurePoint,c.destination,t.price,c.departureDate
+order by c.departurePoint;
+

@@ -1,0 +1,17 @@
+set pagesize 30
+set linesize 120
+
+
+TTITLE CENTER 'GOGO BUS COMPANY' SKIP 1 - 
+CENTER ================================= SKIP 1 -
+CENTER'CUSTOMER GENDER ANALYSIS REPORT' SKIP 1-
+CENTER 'WEEK ENDING DATE: '_DATE - 
+RIGHT 'Page:' FORMAT 999 SQL.PNO SKIP 2
+
+
+
+ SELECT SUM(CASE WHEN CGender = 'F' OR CGender = 'M' THEN 1 ELSE 0 END) AS "Amount Of Female Customers",
+	SUM(CASE WHEN CGender = 'F' THEN 1 ELSE 0 END) AS "Amount Of Female Customers",
+        SUM(CASE WHEN CGender = 'M' THEN 1 ELSE 0 END) AS "Amount Of Male Customers"
+ FROM Customer
+

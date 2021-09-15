@@ -1,0 +1,36 @@
+SQL> compute sum label 'Total' of "OT_Hour" on job_title skip 2
+SQL> @@f:\Report1.txt;
+
+                                                    GOGO BUS COMPANY                                                    
+                                            =================================                                           
+                                             EMPLOYEE OVERTIME WORKING HOURS                                            
+                                               WEEK ENDING DATE: 12-AUG-19                                     Page:   1
+                                                                                                                        
+JOB_TITLE                      ID         Name                           WORKING_HOUR    OT_Hour                        
+------------------------------ ---------- ------------------------------ ------------ ----------                        
+Sales Manager                  T0001      Andy Lau                                 45          5                        
+                               T0013      Alex Landi                               49          9                        
+                               T0019      Li Jun Li                                47          7                        
+                               T0025      Ellen Wong                               45          5                        
+******************************                                                        ----------                        
+Total                                                                                         26                        
+                                                                                                                        
+Sales Representative           T0003      Jackie Chan                              50         10                        
+                               T0005      Claudia Kim                              41          1                        
+                               T0006      Lee Ki Hong                              43          3                        
+                               T0009      Kelsey Chow                              48          8                        
+                               T0012      Brenda Song                              47          7                        
+                               T0014      Chris Pang                               60         20                        
+                               T0015      Charles Melton                           52         12                        
+                               T0017      Simu Liu                                 43          3                        
+                               T0020      Michelle Ang                             45          5                        
+                               T0021      Greta Lee                                46          6                        
+                               T0026      Celia Au                                 48          8                        
+                               T0027      Dev Patel                                49          9                        
+                               T0028      Ken Kirby                                45          5                        
+******************************                                                        ----------                        
+Total                                                                                         97                        
+
+17 rows selected.
+
+SQL> spool off;

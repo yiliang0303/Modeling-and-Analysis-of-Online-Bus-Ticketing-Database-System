@@ -1,0 +1,23 @@
+set pagesize 30
+set linesize 120
+
+TTITLE CENTER 'GOGO BUS COMPANY' SKIP 1 - 
+CENTER ================================= SKIP 2 -
+CENTER'FOURTH QUARTER OF BUS SCHEDULE IN YEAR 2018'-
+RIGHT _DATE  SKIP 1-
+RIGHT 'Page:' FORMAT 999 SQL.PNO SKIP 2
+
+
+
+break on busID on departurePoint on destination skip 2
+
+
+
+SELECT b.BUSID, departurePoint,destination,SCHEDULEID
+FROM BUS b, SCHEDULE s
+WHERE s.BUSID = b.BUSID AND
+departureDate BETWEEN '01-SEP-2018' AND '31-DEC-2018'
+group by b.BUSID,SCHEDULEID,departurePoint,destination
+order by b.BUSID,departurePoint,destination;
+
+

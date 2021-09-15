@@ -1,0 +1,38 @@
+
+insert into staff values('T0001','Andy Lau','2 Chong Cheng Kean Rd, 11200 Tg Bungah,Penang',59,'M','andy666@hotmail.com','0166661919',10500,'1-Jun-2000','Sales Manager',45);
+insert into staff values('T0002','James Lee','1 Blok 288B Jln Thean Tek, Bandar Baru Air Itam, 11500 Ayer Itam Penang',52,'M','james123@hotmail.com','0182915356',5000,'1-Jul-2000','Sales Representative',40);
+insert into staff values('T0003','Jackie Chan','2-5-7 Pearl Garden,Jalan Sungai Ara Satu, 11900  Bayan Lepas, Penang',54,'M','jc456@hotmail.com','0192331010',4800,'10-Jul-2000','Sales Representative',50);
+insert into staff values('T0004','Awkwafina','No. 3, Lrg Helang 2, 11700 Gelugor Penang',51,'F','awk0202@hotmail.com','0174991515',4500,'1-Aug-2000','Sales Representative',40);
+insert into staff values('T0005','Claudia Kim','3-1-7 Block 3 Tingkat Seri Genting, Taman Sri Indah, 11000 Balik Pulau Penang ',52,'F','claudia@hotmail.com','0162335050',4500,'15-Aug-2000','Sales Representative',41);
+insert into staff values('T0006','Lee Ki Hong','547-K, Jalan Wee Hein Tze,11200 Tanjung Bungah,Penang',50,'M','kihong@hotmail.com','0124557878',4500,'1-Sep-2005','Sales Representative',43);
+
+insert into staff values('T0007','Manny Jacinto','No. 632, Jln 2C Kampung Baru Subang, 40000 Subang Shah Alam Selangor',56,'M','manny@hotmail.com','0161232222',10300,'1-Sep-2005','Sales Manager',40);
+insert into staff values('T0008','Arden Cho','55, Jalan Nipah 4, Pandamaran, Port 42000 Klang, Selangor',55,'F','ardencho@hotmail.com','0185221616',4500,'1-Jan-2006','Sales Representative',37);
+insert into staff values('T0009','Kelsey Chow','No.20 Jalan 2/32, 46000 Petaling Jaya, Selangor',53,'F','kelseychow@gmail.com','0194339595',4500,'1-Mar-2006','Sales Representative',48);
+insert into staff values('T0010','Ian Chen','No.18 Jalan SS 21/39, Damansara Utama, 47400 Petaling Jaya, Selangor',52,'M','chenian@hotmail.com','0174111919',4500,'1-Mar-2006','Sales Representative',31);
+insert into staff values('T0011','Karan Brar','28, Jalan Sungai 3/10, Pusat Bandar Sri Gombak, 68100 Batu Caves, Selangor',50,'M','karanbrar@hotmail.com','0168559797',4400,'15-Aug-2006','Sales Representative',40);
+insert into staff values('T0012','Brenda Song','11, Jalan Tandang, 46050 Petaling Jaya, Selangor',50,'F','songbrenda@hotmail.com','0125567474',4400,'1-Sep-2006','Sales Representative',47);
+
+insert into staff values('T0013','Alex Landi','354, Jalan Kuantan, 28000 Temerloh Pahang',49,'M','alexlandi@gmail.com','0168441694',10200,'1-Sep-2006','Sales Manager',49);
+insert into staff values('T0014','Chris Pang','B 1482 Jalan Beserah, 75300 Kuantan Pahang',47,'M','chrispang@hotmail.com','0189483535',4300,'1-Nov-2006','Sales Representative',60);
+insert into staff values('T0015','Charles Melton','B1833 Jln Beserah 25300 Kuantan Pahang',44,'M','charles87@gmail.com','0194339595',4300,'1-Dec-2006','Sales Representative',52);
+insert into staff values('T0016','Lana Condor','E2180, Jalan Dato Wong Ah Jang, 25100 Kuantan Pahang',44,'F','condorlana@gmail.com','0174117474',4300,'1-Dec-2006','Sales Representative',40);
+insert into staff values('T0017','Simu Liu','A11 Tingkat Bawah, Lorong Sekilau 22 Bukit Sekilau, 25200 Kuantan Pahang',43,'M','simuliu@hotmail.com','0166264848',4300,'15-Dec-2006','Sales Representative',43);
+insert into staff values('T0018','Christine Ko','B 1837, Jalan Beserah, 75300 Kuantan Pahang, 75300',42,'F','christine5@hotmail.com','0125552333',4200,'1-Jan-2007','Sales Representative',37);
+
+insert into staff values('T0019','Li Jun Li','No. 43, Jalan Seberang Perak, 05400 Alor Setar Kedah',39,'F','lijunli@gmail.com','0163036684',10200,'1-Jan-2010','Sales Manager',47);
+insert into staff values('T0020','Michelle Ang','No. 27 Wisma Bandaran, Jln Ibrahim, 08000 Sungai Petani Kedah',37,'F','michelleang@gmail.com','0185591354',4000,'1-Mar-2011','Sales Representative',45);
+insert into staff values('T0021','Greta Lee','1286A Taman Lam Fong, Jalan Pengawai Kedah, 05050 Alor Setar, Kedah,',35,'F','gretalee@hotmail.com','0193313131',4000,'1-May-2011','Sales Representative',46);
+insert into staff values('T0022','Jake Choi','15-N, Jalan Kampung Baru, 08000 Sungai Petani, Kedah',34,'M','jakechoi@gmail.com','0175883434',4000,'1-May-2011','Sales Representative',40);
+insert into staff values('T0023','Sam Li','No. 17 Taman Pandan, Jalan Sultanah Sambungan, 05350 Alor Setar Kedah',31,'M','samli@hotmail.com','0167415252',4000,'1-May-2012','Sales Representative',34);
+insert into staff values('T0024','Jeremy Sry','No. 25 Taman Pandan, Jalan Sultanah Sambungan, 05350 Alor Setar Kedah',30,'M','jeremysry@gmail.com','0121125656',4000,'15-May-2012','Sales Representative',40);
+
+insert into staff values('T0025','Ellen Wong','17-1, Jalan 8/95B, Taman Cheras Utama, 56100 Kuala Lumpur',30,'F','ellenwong@gmail.com','0166461111',10200,'1-Jun-2013','Sales Manager',45);
+insert into staff values('T0026','Celia Au','No. 12, Jalan 2/108C, Taman Sungai Besi, 57000 Kuala Lumpur',29,'F','celiaau@hotmail.com','0189512073',3800,'1-Jun-2015','Sales Representative',48);
+insert into staff values('T0027','Dev Patel','3, Jalan Gelang, Off Jalan Sungai Besi,55200 Kuala Lumpur',25,'M','pateldev@hotmail.com','0191475162',3700,'1-Jul-2016','Sales Representative',49);
+insert into staff values('T0028','Ken Kirby','No.34B Jalan Silang Wilayah Persekutuan 50050 Kuala Lumpur',26,'M','kirbyken@gmail.com','0172349297',3500,'1-Jul-2017','Sales Representative',45);
+insert into staff values('T0029','Jona Xiao','7-1A Jalan Perdana 4/8 Pandan Perdana, 55300 Kuala Lumpur',24,'F','jonaxiao@gmail.com','0167484931',3500,'1-Jul-2017','Sales Representative',40);
+insert into staff values('T0030','Kelly Hu','3rd Floor, No. 86-88, Jalan Masjid India, 50100 Kuala Lumpur',18,'F','kellyhu@hotmail.com','0124815151',3000,'1-Dec-2018','Sales Representative',40);
+
+
+

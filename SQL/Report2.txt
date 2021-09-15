@@ -1,0 +1,38 @@
+set pagesize 30
+set linesize 120
+alter system flush buffer_cache;
+
+prompt Top Best Employee Sales Performance
+prompt =================================
+accept tbsp char prompt 'Enter the number of employee >'
+accept mon char prompt 'Enter the month(MON) >'
+
+TTITLE CENTER 'GOGO BUS COMPANY' SKIP 1 - 
+CENTER ================================= SKIP 2 -
+
+prompt 
+prompt Top &num Best Employee Sales Performance in &mon 2018
+prompt	====================================================
+select * from(
+	select t.SName AS "STAFF NAME",count(a.ticketID) AS "Total Sales"
+	from Ticket a, sales s, Staff t, schedule p
+	where a.salesID = s.SalesID AND
+	s.StaffID = t.StaffID AND
+	a.scheduleID = p.scheduleID AND
+	departureDate between '01-&mon-18' AND last_day(to_Date('01-&mon-18'))
+	group by t.SName
+	order by count (ticketID) desc)
+where rownum <= &tbsp;
+
+
+
+
+ 
+
+
+
+
+
+
+
+

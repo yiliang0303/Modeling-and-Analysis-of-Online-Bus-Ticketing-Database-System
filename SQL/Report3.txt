@@ -1,0 +1,33 @@
+set pagesize 30
+set linesize 120
+
+
+alter system flush buffer_cache;
+
+prompt Most Bus Seat Reserved by Customer
+prompt =================================
+accept tbsp char prompt 'Enter the number of seat >'
+accept depart char prompt 'Enter the departurePoint >'
+accept dest char prompt 'Enter the destination >'
+
+TTITLE CENTER 'GOGO BUS COMPANY' SKIP 1 - 
+CENTER ================================= SKIP 2 -
+
+prompt 
+prompt Top &tbsp Bus Seat Reserved by Customer
+prompt	====================================================
+select * from(
+	SELECT s.BusID AS "BUS ID",count(SeatNumber) AS "Seat Number"
+	FROM ticket t,schedule s,bus b
+	WHERE t.scheduleID = s.scheduleID AND
+	s.BusID = b.BusID AND
+	departurePoint LIKE &depart AND
+	destination LIKE &dest
+	GROUP BY s.BusID
+	ORDER By count (SeatNumber) desc)
+where rownum <= &tbsp;
+
+
+
+
+

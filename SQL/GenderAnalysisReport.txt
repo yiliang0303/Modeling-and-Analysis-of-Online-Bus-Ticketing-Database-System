@@ -1,0 +1,13 @@
+SQL> @@D:\GenderReport.txt;
+SQL> /
+
+                                                    GOGO BUS COMPANY                                                    
+                                            =================================                                           
+                                             CUSTOMER GENDER ANALYSIS REPORT                                            
+                                               WEEK ENDING DATE: 16-AUG-19                                     Page:   1
+                                                                                                                        
+Amount Of Female Customers Amount Of Female Customers Amount Of Male Customers                                          
+-------------------------- -------------------------- ------------------------                                          
+                       170                        100                       70                                          
+
+SQL> spool off;

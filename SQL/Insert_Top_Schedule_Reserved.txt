@@ -1,0 +1,31 @@
+set pagesize 30
+set linesize 120
+
+prompt  Search the Top Most Schedule Reserved
+prompt *--------------------------------------*
+accept top char prompt 'Enter the Number of Top Most Schedule Reserved>'
+accept year char prompt'Enter Year>'
+accept month char prompt'Enter Month>'
+
+TTITLE CENTER 'GOGO BUS COMPANY' SKIP 1 - 
+CENTER ================================= SKIP 1 -
+CENTER'Monthly Top &top Most Schedule Reserved by Percentage in &month &year' SKIP 1-
+RIGHT 'Page:' FORMAT 999 SQL.PNO SKIP 2
+
+column departurePoint format A25
+column destination format A25
+
+column scheduleID heading 'Schedule ID'
+column departurePoint heading 'Departure Point'
+column destination heading 'Destination'
+
+Select * from
+(Select c.scheduleID,c.departurePoint,c.destination,c.departureDate,b.TotalSeat,count(t.ticketID) as "Ticket Sold(Qty)",b.TotalSeat - count(t.ticketID) as "Seat Left"
+From schedule c, ticket t, sales s,bus b
+Where b.busid = c.busid and
+      c.scheduleID = t.scheduleID and
+      t.salesID = s.salesID and
+      S_Date between '01-&month-&year' and last_day(to_Date('01-&month-&year'))
+Group By c.departurePoint,c.destination,c.departureDate,c.scheduleID,b.TotalSeat
+order by "Ticket Sold(Qty)" desc)
+where rownum <= &top;

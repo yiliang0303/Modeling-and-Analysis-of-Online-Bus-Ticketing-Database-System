@@ -1,0 +1,316 @@
+insert into schedule values('P201801011030K', to_timestamp('10:30','hh24:mi'), '01-JAN-2018', 'Penang', 'Kuala Lumpur', 'MON', 'S01');
+insert into schedule values('K201801011030P', to_timestamp('10:30','hh24:mi'), '01-JAN-2018', 'Kuala Lumpur', 'Penang', 'MON', 'S02');
+insert into schedule values('P201801021230S', to_timestamp('12:30','hh24:mi'), '02-JAN-2018', 'Penang', 'Seberang Perai', 'TUE', 'S03');
+insert into schedule values('P201801021340E', to_timestamp('13:40','hh24:mi'), '02-JAN-2018', 'Penang', 'Kedah', 'TUE', 'S04');
+insert into schedule values('P201801041030K', to_timestamp('10:30','hh24:mi'), '04-JAN-2018', 'Penang', 'Kuala Lumpur', 'MON', 'D01');
+insert into schedule values('S201801041430K', to_timestamp('14:30','hh24:mi'), '04-JAN-2018', 'Seberang Perai', 'Kuala Lumpur', 'THU', 'S03');
+insert into schedule values('P201801041230K', to_timestamp('12:30','hh24:mi'), '04-JAN-2018', 'Penang', 'Kuala Lumpur', 'THU', 'D02');
+insert into schedule values('P201801051030K', to_timestamp('10:30','hh24:mi'), '05-JAN-2018', 'Penang', 'Kuala Lumpur', 'FRI','S02');
+insert into schedule values('E201801051130K', to_timestamp('11:30','hh24:mi'), '05-JAN-2018', 'Kedah', 'Kuala Lumpur', 'FRI', 'S04');
+insert into schedule values('K201801051530P', to_timestamp('15:30','hh24:mi'), '05-JAN-2018', 'Kuala Lumpur', 'Penang', 'FRI', 'S01');
+ 
+insert into schedule values('P201801081030K', to_timestamp('10:30','hh24:mi'), '08-JAN-2018', 'Penang', 'Kuala Lumpur', 'MON', 'S01');
+insert into schedule values('K201801081130P', to_timestamp('11:30','hh24:mi'), '08-JAN-2018', 'Kuala Lumpur', 'Penang', 'MON', 'S02');
+insert into schedule values('K201801081530E', to_timestamp('15:30','hh24:mi'), '08-JAN-2018', 'Kuala Lumpur', 'Kedah', 'MON', 'S04');
+insert into schedule values('E201801091030K', to_timestamp('10:30','hh24:mi'), '09-JAN-2018', 'Kedah', 'Kuala Lumpur', 'TUE', 'S04');
+insert into schedule values('P201801091230K', to_timestamp('12:30','hh24:mi'), '09-JAN-2018', 'Penang', 'Kuala Lumpur', 'TUE', 'S02');
+insert into schedule values('K201801101230P', to_timestamp('12:30','hh24:mi'), '10-JAN-2018', 'Kuala Lumpur', 'Penang',  'WED', 'D01');
+insert into schedule values('K201801101530P', to_timestamp('15:30','hh24:mi'), '10-JAN-2018', 'Kuala Lumpur', 'Penang', 'WED', 'S01');
+insert into schedule values('K201801101030S', to_timestamp('10:30','hh24:mi'), '10-JAN-2018', 'Kuala Lumpur', 'Seberang Perai', 'WED', 'S03');
+insert into schedule values('P201801111130K', to_timestamp('11:30','hh24:mi'), '11-JAN-2018', 'Penang', 'Kedah', 'THU', 'S01');
+insert into schedule values('K201801111230E', to_timestamp('12:30','hh24:mi'), '11-JAN-2018', 'Kuala Lumpur', 'Kedah', 'THU', 'D02');
+ 
+insert into schedule values('P201801151030K', to_timestamp('10:30','hh24:mi'), '15-JAN-2018', 'Penang', 'Kuala Lumpur', 'MON', 'D01');
+insert into schedule values('S201801151230K', to_timestamp('12:30','hh24:mi'), '15-JAN-2018', 'Seberang Perai', 'Kuala Lumpur', 'MON', 'S03');
+insert into schedule values('E201801161230K', to_timestamp('12:30','hh24:mi'), '16-JAN-2018', 'Kedah', 'Kuala Lumpur', 'TUE', 'S01');
+insert into schedule values('K201801161530P', to_timestamp('15:30','hh24:mi'), '16-JAN-2018', 'Kuala Lumpur','Penang', 'TUE', 'S02');
+insert into schedule values('P201801171130E', to_timestamp('11:30','hh24:mi'), '17-JAN-2018', 'Penang', 'Kedah', 'WED', 'S02');
+insert into schedule values('E201801171200S', to_timestamp('12:00','hh24:mi'), '17-JAN-2018', 'Kedah', 'Seberang Perai', 'WED', 'D02');
+insert into schedule values('K201801181030P', to_timestamp('10:30','hh24:mi'), '18-JAN-2018', 'Kuala Lumpur', 'Penang', 'THU', 'D01');
+insert into schedule values('K201801181130K', to_timestamp('11:30','hh24:mi'), '18-JAN-2018', 'Kuala Lumpur', 'Kedah', 'THU', 'S04');
+insert into schedule values('E201801191330S', to_timestamp('13:30','hh24:mi'), '19-JAN-2018', 'Kedah','Seberang Perai', 'FRI', 'S02');
+insert into schedule values('K201801191530P', to_timestamp('15:30','hh24:mi'), '19-JAN-2018', 'Kuala Lumpur', 'Penang', 'FRI', 'S01');
+ 
+insert into schedule values('P201801221030K', to_timestamp('10:30','hh24:mi'), '22-JAN-2018', 'Penang', 'Kuala Lumpur', 'MON', 'D01');
+insert into schedule values('P201801221230E', to_timestamp('12:30','hh24:mi'), '22-JAN-2018', 'Penang', 'Kedah', 'MON', 'S01'); 
+insert into schedule values('E201801231230K', to_timestamp('12:30','hh24:mi'), '23-JAN-2018', 'Kedah', 'Kuala Lumpur', 'TUE', 'S01');
+insert into schedule values('S201801231530K', to_timestamp('15:30','hh24:mi'), '23-JAN-2018', 'Seberang Perai', 'Kuala Lumpur', 'TUE', 'D02');
+insert into schedule values('S201801241230K', to_timestamp('12:30','hh24:mi'), '24-JAN-2018', 'Seberang Perai', 'Kuala Lumpur', 'WED', 'S02');
+insert into schedule values('K201801241330E', to_timestamp('13:30','hh24:mi'), '24-JAN-2018', 'Kuala Lumpur', 'Kedah', 'WED', 'D02');
+insert into schedule values('E201801251330S', to_timestamp('13:30','hh24:mi'), '25-JAN-2018', 'Kedah', 'Seberang Perai', 'THU', 'S04');
+insert into schedule values('K201801251500E', to_timestamp('15:00','hh24:mi'), '25-JAN-2018', 'Kuala Lumpur', 'Kedah', 'THU', 'S01');
+insert into schedule values('K201801261030P', to_timestamp('10:30','hh24:mi'), '26-JAN-2018', 'Kuala Lumpur', 'Penang', 'FRI', 'S02');
+insert into schedule values('S201801261100P', to_timestamp('11:00','hh24:mi'), '26-JAN-2018', 'Seberang Perai', 'Penang', 'FRI', 'S03');
+ 
+insert into schedule values('P201801291030K', to_timestamp('10:30','hh24:mi'), '29-JAN-2018', 'Penang', 'Kuala Lumpur', 'MON', 'S02');
+insert into schedule values('S201801291530P', to_timestamp('15:30','hh24:mi'), '29-JAN-2018', 'Seberang Perai' , 'Penang' , 'MON' , 'S04');
+insert into schedule values('K201801301030E', to_timestamp('10:30','hh24:mi'), '30-JAN-2018', 'Kuala Lumpur', 'Kedah', 'TUE', 'D01');
+insert into schedule values('K201801011030S', to_timestamp('12:30','hh24:mi'), '30-JAN-2018', 'Kuala Lumpur', 'Seberang Perai', 'TUE', 'S02');
+insert into schedule values('E201801311230K', to_timestamp('12:30','hh24:mi'), '31-JAN-2018', 'Kedah', 'Kuala Lumpur', 'WED', 'D02');
+insert into schedule values('P201801311530S', to_timestamp('15:30','hh24:mi'), '31-JAN-2018', 'Penang', 'Seberang Perai', 'WED', 'S03');
+insert into schedule values('P201802011030K', to_timestamp('10:30','hh24:mi'), '01-FEB-2018', 'Penang', 'Kuala Lumpur', 'THU', 'S04');
+insert into schedule values('P201802011130K', to_timestamp('11:30','hh24:mi'), '01-FEB-2018', 'Kedah', 'Kuala Lumpur', 'THU', 'D01');
+insert into schedule values('K201802021530P', to_timestamp('15:30','hh24:mi'), '02-FEB-2018', 'Kuala Lumpur', 'Penang', 'FRI', 'D02');
+insert into schedule values('K201802021600P', to_timestamp('16:00','hh24:mi'), '02-FEB-2018', 'Kuala Lumpur', 'Penang', 'FRI', 'D01');
+ 
+insert into schedule values('E201802051230K', to_timestamp('12:30','hh24:mi'), '05-FEB-2018', 'Kedah', 'Kuala Lumpur', 'MON', 'S01');
+insert into schedule values('K201802051530P', to_timestamp('15:30','hh24:mi'), '05-FEB-2018', 'Kuala Lumpur', 'Penang' , 'MON', 'S04');
+insert into schedule values('S201802061130E', to_timestamp('11:30','hh24:mi'), '06-FEB-2018', 'Seberang Perai', 'Kedah','TUE', 'S02');
+insert into schedule values('K201802061230S', to_timestamp('12:30','hh24:mi'), '06-FEB-2018', 'Kuala Lumpur', 'Seberang Perai', 'TUE', 'S01');
+insert into schedule values('E201802071230K', to_timestamp('12:30','hh24:mi'), '07-FEB-2018', 'Kedah', 'Kuala Lumpur', 'WED', 'S02');
+insert into schedule values('P201802071530S', to_timestamp('15:30','hh24:mi'), '07-FEB-2018', 'Penang', 'Seberang Perai', 'WED', 'S04');
+insert into schedule values('P201802081330K', to_timestamp('13:30','hh24:mi'), '08-FEB-2018', 'Penang', 'Kuala Lumpur', 'THU', 'D02');
+insert into schedule values('P201802081530S', to_timestamp('15:30','hh24:mi'), '08-FEB-2018', 'Penang', 'Seberang Perai', 'THU', 'D01');
+insert into schedule values('S201802091230E', to_timestamp('12:30','hh24:mi'), '09-FEB-2018', 'Seberang Perai', 'Kedah', 'FRI', 'S03');
+insert into schedule values('S201802091500P', to_timestamp('15:00','hh24:mi'), '09-FEB-2018', 'Seberang Perai', 'Penang', 'FRI', 'S01');
+ 
+insert into schedule values('K201802121130S', to_timestamp('11:30','hh24:mi'), '12-FEB-2018', 'Kuala Lumpur', 'Seberang Perai','TUE', 'S02');
+insert into schedule values('K201802121330S', to_timestamp('13:30','hh24:mi'), '12-FEB-2018', 'Kuala Lumpur', 'Seberang Perai', 'TUE', 'D02');
+insert into schedule values('E201802131330K', to_timestamp('13:30','hh24:mi'), '13-FEB-2018', 'Kedah', 'Kuala Lumpur', 'WED', 'S03');
+insert into schedule values('P201802131530E', to_timestamp('15:30','hh24:mi'), '13-FEB-2018', 'Penang', 'Kedah', 'WED', 'S01');
+insert into schedule values('S201802141030K', to_timestamp('10:30','hh24:mi'), '14-FEB-2018', 'Seberang Perai', 'Kuala Lumpur', 'THU', 'S04');
+insert into schedule values('E201802141530S', to_timestamp('15:30','hh24:mi'), '14-FEB-2018', 'Kedah', 'Seberang Perai', 'THU', 'S01');
+insert into schedule values('K201802151130E', to_timestamp('11:30','hh24:mi'), '15-FEB-2018', 'Kuala Lumpur', 'Kedah', 'FRI', 'S03');
+insert into schedule values('S201802151200P', to_timestamp('12:00','hh24:mi'), '15-FEB-2018', 'Seberang Perai', 'Penang', 'FRI', 'S01');
+insert into schedule values('S201802161130K', to_timestamp('11:30','hh24:mi'), '16-FEB-2018', 'Seberang Perai', 'Kuala Lumpur', 'MON', 'D02');
+insert into schedule values('S201802161200K', to_timestamp('12:00','hh24:mi'), '16-FEB-2018', 'Seberang Perai', 'Kuala Lumpur', 'MON', 'D01');
+ 
+insert into schedule values('P201802191130K', to_timestamp('11:30','hh24:mi'), '19-FEB-2018', 'Penang', 'Kuala Lumpur', 'MON', 'S01');
+insert into schedule values('E201802191200K', to_timestamp('12:00','hh24:mi'), '19-FEB-2018', 'Kedah',  'Kuala Lumpur', 'MON', 'S03');
+insert into schedule values('K201802201130P', to_timestamp('11:30','hh24:mi'), '20-FEB-2018', 'Kuala Lumpur', 'Penang', 'TUE', 'S01');
+insert into schedule values('K201802201330S', to_timestamp('13:30','hh24:mi'), '20-FEB-2018', 'Kuala Lumpur', 'Seberang Perai', 'TUE', 'S04');
+insert into schedule values('K201802211330S', to_timestamp('13:30','hh24:mi'), '21-FEB-2018', 'Kuala Lumpur', 'Seberang Perai', 'WED', 'D01');
+insert into schedule values('K201802211530S', to_timestamp('15:30','hh24:mi'), '21-FEB-2018', 'Kuala Lumpur', 'Seberang Perai', 'WED', 'D02');
+insert into schedule values('S201802221030K', to_timestamp('10:30','hh24:mi'), '22-FEB-2018', 'Seberang Perai', 'Kuala Lumpur', 'THU', 'D01');
+insert into schedule values('E201802221530S', to_timestamp('15:30','hh24:mi'), '22-FEB-2018', 'Kuala Lumpur', 'Seberang Perai', 'THU', 'S03');
+insert into schedule values('K201802231130E', to_timestamp('11:30','hh24:mi'), '23-FEB-2018', 'Penang', 'Kedah', 'FRI', 'S01');
+insert into schedule values('S201802231200P', to_timestamp('12:00','hh24:mi'), '23-FEB-2018', 'Seberang Perai', 'Penang', 'FRI', 'S02');
+ 
+insert into schedule values('E201802261230K', to_timestamp('12:30','hh24:mi'), '26-FEB-2018', 'Kedah', 'Kuala Lumpur', 'MON', 'S01');
+insert into schedule values('K201802261530P', to_timestamp('15:30','hh24:mi'), '26-FEB-2018', 'Kuala Lumpur', 'Penang', 'MON', 'D01');
+insert into schedule values('S201802271130E', to_timestamp('11:30','hh24:mi'), '27-FEB-2018', 'Seberang Perai', 'Kedah', 'TUE', 'S03');
+insert into schedule values('K201802271230S', to_timestamp('12:30','hh24:mi'), '27-FEB-2018', 'Kuala Lumpur', 'Seberang Perai', 'TUE', 'S01');
+insert into schedule values('E201802281230K', to_timestamp('12:30','hh24:mi'), '28-FEB-2018', 'Kedah', 'Kuala Lumpur', 'WED', 'S03');
+insert into schedule values('P201802281530S', to_timestamp('15:30','hh24:mi'), '28-FEB-2018', 'Penang', 'Seberang Perai', 'WED', 'D01');
+insert into schedule values('E201803011330K', to_timestamp('13:30','hh24:mi'), '01-MAR-2018', 'Seberang Perai', 'Kuala Lumpur', 'THU', 'S04');
+insert into schedule values('S201803011530S', to_timestamp('15:30','hh24:mi'), '01-MAR-2018', 'Seberang Perai', 'Penang', 'THU', 'D02');
+insert into schedule values('P201803021230E', to_timestamp('12:30','hh24:mi'), '02-MAR-2018', 'Penang', 'Kedah', 'FRI', 'S02');
+insert into schedule values('S201803021500P', to_timestamp('15:00','hh24:mi'), '02-MAR-2018', 'Seberang Perai', 'Penang', 'FRI', 'S01');
+ 
+insert into schedule values('P201803051030E', to_timestamp('10:30','hh24:mi'), '05-MAR-2018', 'Kuala Lumpur', 'Kedah', 'MON', 'S04');  
+insert into schedule values('P201803051530K', to_timestamp('15:30','hh24:mi'), '05-MAR-2018', 'Penang', 'Kuala Lumpur', 'MON', 'D02');
+insert into schedule values('E201803061230K', to_timestamp('12:30','hh24:mi'), '06-MAR-2018', 'Kedah', 'Kuala Lumpur', 'TUE', 'S02');
+insert into schedule values('P201803061300S', to_timestamp('13:00','hh24:mi'), '06-MAR-2018', 'Penang', 'Seberang Perai', 'TUE', 'S01');
+insert into schedule values('K201803071330P', to_timestamp('13:30','hh24:mi'), '07-MAR-2018', 'Kuala Lumpur', 'Penang', 'WED', 'S02');
+insert into schedule values('K201803071330E', to_timestamp('13:30','hh24:mi'), '07-MAR-2018', 'Kuala Lumpur', 'Kedah', 'WED', 'S03');
+insert into schedule values('P201803081430E', to_timestamp('14:30','hh24:mi'), '08-MAR-2018', 'Penang', 'Kedah', 'THU', 'S02');
+insert into schedule values('S201803081600K', to_timestamp('16:00','hh24:mi'), '08-MAR-2018', 'Seberang Perai', 'Kuala Lumpur', 'THU', 'D01');
+insert into schedule values('S201803091130P', to_timestamp('11:30','hh24:mi'), '09-MAR-2018', 'Seberang Perai', 'Penang', 'FRI', 'S01');
+insert into schedule values('E201803091230S', to_timestamp('12:30','hh24:mi'), '09-MAR-2018', 'Kedah', 'Seberang Perai', 'FRI', 'S02'); 
+ 
+insert into schedule values('K201803121030P', to_timestamp('10:30','hh24:mi'), '12-MAR-2018', 'Kuala Lumpur', 'Penang', 'MON', 'D01');
+insert into schedule values('E201803121230K', to_timestamp('12:30','hh24:mi'), '12-MAR-2018', 'Kedah', 'Kuala Lumpur', 'MON', 'S03');  
+insert into schedule values('P201803131230K', to_timestamp('12:30','hh24:mi'), '13-MAR-2018', 'Penang', 'Kuala Lumpur', 'TUE', 'S01');
+insert into schedule values('K201803131500P', to_timestamp('15:00','hh24:mi'), '13-MAR-2018', 'Kuala Lumpur', 'Penang', 'TUE', 'S03');
+insert into schedule values('P201803141030S', to_timestamp('10:30','hh24:mi'), '14-MAR-2018', 'Penang', 'Seberang Perai', 'WED', 'D01');
+insert into schedule values('K201803141330E', to_timestamp('13:30','hh24:mi'), '14-MAR-2018', 'Kuala Lumpur', 'Kedah', 'WED', 'S01');
+insert into schedule values('K201803151130E', to_timestamp('11:30','hh24:mi'), '15-MAR-2018', 'Kuala Lumpur', 'Kedah', 'THU', 'D02');
+insert into schedule values('S201803151500K', to_timestamp('15:00','hh24:mi'), '15-MAR-2018', 'Seberang Perai', 'Kuala Lumpur', 'THU', 'S02');
+insert into schedule values('E201803161130P', to_timestamp('11:30','hh24:mi'), '16-MAR-2018', 'Kedah', 'Penang', 'FRI', 'D02');
+insert into schedule values('E201803161330S', to_timestamp('13:30','hh24:mi'), '16-MAR-2018', 'Kedah', 'Seberang Perai', 'FRI', 'S04'); 
+ 
+insert into schedule values('K201803191000P', to_timestamp('10:00','hh24:mi'), '19-MAR-2018', 'Kuala Lumpur', 'Penang', 'MON', 'S02');
+insert into schedule values('E201803191230K', to_timestamp('12:30','hh24:mi'), '19-MAR-2018', 'Kedah', 'Kuala Lumpur', 'MON', 'S01');
+insert into schedule values('P201803201100E', to_timestamp('11:00','hh24:mi'), '20-MAR-2018', 'Penang', 'Kedah', 'TUE', 'S03');
+insert into schedule values('P201803201530E', to_timestamp('15:30','hh24:mi'), '20-MAR-2018', 'Penang', 'Kedah', 'TUE', 'D02');
+insert into schedule values('K201803211330P', to_timestamp('13:30','hh24:mi'), '21-MAR-2018', 'Kuala Lumpur', 'Penang', 'WED', 'S01');
+insert into schedule values('S201803211430P', to_timestamp('14:30','hh24:mi'), '21-MAR-2018', 'Seberang Perai', 'Penang', 'WED', 'S04');
+insert into schedule values('P201803221030K', to_timestamp('10:30','hh24:mi'), '22-MAR-2018', 'Penang', 'Kuala Lumpur', 'THU', 'S02');
+insert into schedule values('S201803221300E', to_timestamp('13:00','hh24:mi'), '22-MAR-2018', 'Seberang Perai', 'Kedah', 'THU', 'D01');
+insert into schedule values('E201803231130K', to_timestamp('11:30','hh24:mi'), '23-MAR-2018', 'Kedah', 'Kuala Lumpur', 'FRI', 'D02');
+insert into schedule values('P201803231530K', to_timestamp('15:30','hh24:mi'), '23-MAR-2018', 'Penang', 'Kuala Lumpur', 'FRI', 'S04');
+ 
+insert into schedule values('E201803261000P', to_timestamp('10:00','hh24:mi'), '26-MAR-2018', 'Kedah', 'Penang', 'MON', 'S03');
+insert into schedule values('K201803261130P', to_timestamp('11:30','hh24:mi'), '26-MAR-2018', 'Kuala Lumpur', 'Penang', 'MON', 'D02'); 
+insert into schedule values('P201803271330K', to_timestamp('13:30','hh24:mi'), '27-MAR-2018', 'Penang','Kuala Lumpur', 'TUE', 'S01');
+insert into schedule values('E201803271430K', to_timestamp('14:30','hh24:mi'), '27-MAR-2018', 'Kedah', 'Kuala Lumpur', 'TUE', 'D01');
+insert into schedule values('K201803281530P', to_timestamp('15:30','hh24:mi'), '28-MAR-2018', 'Kuala Lumpur', 'Penang', 'WED', 'S02');
+insert into schedule values('P201803281600E', to_timestamp('16:00','hh24:mi'), '28-MAR-2018', 'Penang', 'Kedah', 'WED', 'S03'); 
+insert into schedule values('P201803291030K', to_timestamp('10:30','hh24:mi'), '29-MAR-2018', 'Penang', 'Kuala Lumpur', 'THU', 'S02'); 
+insert into schedule values('K201803291230P', to_timestamp('12:30','hh24:mi'), '29-MAR-2018', 'Kuala Lumpur', 'Penang', 'THU', 'S01'); 
+insert into schedule values('K201803301030P', to_timestamp('10:30','hh24:mi'), '30-MAR-2018', 'Kuala Lumpur', 'Penang', 'FRI', 'S04'); 
+insert into schedule values('K201803301130E', to_timestamp('11:30','hh24:mi'), '30-MAR-2018', 'Kuala Lumpur', 'Kedah', 'FRI', 'D01');  
+ 
+insert into schedule values('P201804021030K', to_timestamp('10:30','hh24:mi'), '02-APR-2018', 'Penang', 'Kuala Lumpur', 'MON', 'S01');
+insert into schedule values('K201804021130P', to_timestamp('11:30','hh24:mi'), '02-APR-2018', 'Kuala Lumpur', 'Penang', 'MON', 'S02');
+insert into schedule values('E201804031230S', to_timestamp('12:30','hh24:mi'), '03-APR-2018', 'Kedah', 'Seberang Perai', 'TUE', 'S03');
+insert into schedule values('P201804031340E', to_timestamp('13:40','hh24:mi'), '03-APR-2018', 'Penang', 'Kedah', 'TUE', 'S04');
+
+insert into schedule values('S201804041430K', to_timestamp('14:30','hh24:mi'), '04-APR-2018', 'Seberang Perai', 'Kuala Lumpur', 'THU', 'S03');
+insert into schedule values('P201804051230K', to_timestamp('12:30','hh24:mi'), '05-APR-2018', 'Penang', 'Kuala Lumpur', 'THU', 'D02');
+insert into schedule values('P201804051030K', to_timestamp('10:30','hh24:mi'), '05-APR-2018', 'Penang', 'Kuala Lumpur', 'FRI', 'S02');
+insert into schedule values('E201804061130K', to_timestamp('11:30','hh24:mi'), '06-APR-2018', 'Kedah', 'Kuala Lumpur', 'FRI', 'S04');
+insert into schedule values('K201804061530P', to_timestamp('15:30','hh24:mi'), '06-APR-2018', 'Kuala Lumpur','Penang', 'FRI', 'S01');
+ 
+insert into schedule values('P201804091030K', to_timestamp('10:30','hh24:mi'), '09-APR-2018', 'Penang', 'Kuala Lumpur', 'MON', 'S01');
+insert into schedule values('K201804091130P', to_timestamp('11:30','hh24:mi'), '09-APR-2018', 'Kuala Lumpur', 'Penang', 'MON', 'S02');
+insert into schedule values('K201804101530E', to_timestamp('15:30','hh24:mi'), '10-APR-2018', 'Kuala Lumpur', 'Kedah', 'MON', 'S04');
+insert into schedule values('E201804101030K', to_timestamp('10:30','hh24:mi'), '10-APR-2018', 'Kedah', 'Kuala Lumpur', 'TUE', 'S04');
+insert into schedule values('P201804111230K', to_timestamp('12:30','hh24:mi'), '11-APR-2018', 'Penang', 'Kuala Lumpur', 'TUE', 'S02');
+insert into schedule values('K201804111230P', to_timestamp('12:30','hh24:mi'), '11-APR-2018', 'Kuala Lumpur', 'Penang',  'WED', 'D01');
+insert into schedule values('K201804121530P', to_timestamp('15:30','hh24:mi'), '12-APR-2018', 'Kuala Lumpur', 'Penang', 'WED', 'S01');
+insert into schedule values('K201804121030S', to_timestamp('10:30','hh24:mi'), '12-APR-2018', 'Kuala Lumpur', 'Seberang Perai', 'WED', 'S03');
+insert into schedule values('P201804131130K', to_timestamp('11:30','hh24:mi'), '13-APR-2018', 'Penang', 'Kedah', 'THU', 'S01');
+insert into schedule values('K201804131230E', to_timestamp('12:30','hh24:mi'), '13-APR-2018', 'Kuala Lumpur', 'Kedah', 'THU', 'D02');
+ 
+insert into schedule values('P201804161030K', to_timestamp('10:30','hh24:mi'), '16-APR-2018', 'Penang', 'Kuala Lumpur', 'MON', 'D01');
+insert into schedule values('S201804161230K', to_timestamp('12:30','hh24:mi'), '16-APR-2018', 'Seberang Perai','Kuala Lumpur', 'MON', 'S03');
+insert into schedule values('E201804171230K', to_timestamp('12:30','hh24:mi'), '17-APR-2018', 'Kedah', 'Kuala Lumpur', 'TUE', 'S01');
+insert into schedule values('K201804171530P', to_timestamp('15:30','hh24:mi'), '17-APR-2018', 'Kuala Lumpur', 'Penang', 'TUE', 'S02');
+insert into schedule values('P201804181130E', to_timestamp('11:30','hh24:mi'), '18-APR-2018', 'Penang', 'Kedah', 'WED', 'S02');
+insert into schedule values('E201804181200S', to_timestamp('12:00','hh24:mi'), '18-APR-2018', 'Kedah','Seberang Perai', 'WED', 'D02');
+insert into schedule values('K201804191030P', to_timestamp('10:30','hh24:mi'), '19-APR-2018', 'Kuala Lumpur', 'Penang',  'THU', 'D01');
+insert into schedule values('K201804191130K', to_timestamp('11:30','hh24:mi'), '19-APR-2018', 'Kuala Lumpur', 'Kedah', 'THU', 'S04');
+insert into schedule values('E201804201330S', to_timestamp('13:30','hh24:mi'), '20-APR-2018', 'Kedah', 'Seberang Perai', 'FRI', 'S02');
+insert into schedule values('K201804201530P', to_timestamp('15:30','hh24:mi'), '20-APR-2018', 'Kuala Lumpur', 'Penang', 'FRI', 'S01');
+ 
+insert into schedule values('P201804231030K', to_timestamp('10:30','hh24:mi'), '23-APR-2018', 'Penang', 'Kuala Lumpur', 'MON', 'D01');
+insert into schedule values('P201804231230E', to_timestamp('12:30','hh24:mi'), '23-APR-2018', 'Penang', 'Kedah', 'MON', 'S01'); 
+insert into schedule values('E201804241230K', to_timestamp('12:30','hh24:mi'), '24-APR-2018', 'Kedah', 'Kuala Lumpur', 'TUE', 'S01');
+insert into schedule values('S201804241530K', to_timestamp('15:30','hh24:mi'), '24-APR-2018', 'Seberang Perai', 'Kuala Lumpur', 'TUE', 'D02');
+insert into schedule values('S201804251230K', to_timestamp('12:30','hh24:mi'), '25-APR-2018', 'Seberang Perai', 'Kuala Lumpur', 'WED', 'S02');
+insert into schedule values('K201804251330E', to_timestamp('13:30','hh24:mi'), '25-APR-2018', 'Kuala Lumpur', 'Kedah', 'WED', 'D02');
+insert into schedule values('E201804261330S', to_timestamp('13:30','hh24:mi'), '26-APR-2018', 'Kedah', 'Seberang Perai', 'THU', 'S04');
+insert into schedule values('K201804261500E', to_timestamp('15:00','hh24:mi'), '26-APR-2018', 'Kuala Lumpur', 'Kedah', 'THU', 'S01');
+insert into schedule values('K201804271030P', to_timestamp('10:30','hh24:mi'), '27-APR-2018', 'Kuala Lumpur', 'Penang', 'FRI', 'S02');
+insert into schedule values('S201804271100P', to_timestamp('11:00','hh24:mi'), '27-APR-2018', 'Seberang Perai', 'Penang', 'FRI', 'S03');
+ 
+insert into schedule values('P201804301030K', to_timestamp('10:30','hh24:mi'), '30-APR-2018', 'Penang', 'Kuala Lumpur', 'MON', 'S02');
+insert into schedule values('S201804301530P', to_timestamp('15:30','hh24:mi'), '30-APR-2018', 'Seberang Perai' ,'Penang' ,'MON' ,'S04');
+insert into schedule values('K201805011030E', to_timestamp('10:30','hh24:mi'), '01-MAY-2018', 'Kuala Lumpur', 'Kedah', 'TUE', 'D01');
+insert into schedule values('K201805011030S', to_timestamp('12:30','hh24:mi'), '01-MAY-2018', 'Kuala Lumpur', 'Seberang Perai', 'TUE', 'S02');
+insert into schedule values('E201805021230K', to_timestamp('12:30','hh24:mi'), '02-MAY-2018', 'Kedah', 'Kuala Lumpur', 'WED', 'D02');
+insert into schedule values('P201805021530S', to_timestamp('15:30','hh24:mi'), '02-MAY-2018', 'Penang', 'Seberang Perai', 'WED', 'S03');
+insert into schedule values('P201805031030K', to_timestamp('10:30','hh24:mi'), '03-MAY-2018', 'Penang', 'Kuala Lumpur', 'THU', 'S04');
+insert into schedule values('P201805031130K', to_timestamp('11:30','hh24:mi'), '03-MAY-2018', 'Kedah', 'Kuala Lumpur', 'THU', 'D01');
+insert into schedule values('K201805041530P', to_timestamp('15:30','hh24:mi'), '04-MAY-2018', 'Kuala Lumpur', 'Penang', 'FRI', 'D02');
+insert into schedule values('K201805041600P', to_timestamp('16:00','hh24:mi'), '04-MAY-2018', 'Kuala Lumpur', 'Penang', 'FRI', 'D01');
+ 
+insert into schedule values('E201805071230K', to_timestamp('12:30','hh24:mi'), '07-MAY-2018', 'Kedah', 'Kuala Lumpur', 'MON', 'S01');
+insert into schedule values('K201805071530P', to_timestamp('15:30','hh24:mi'), '07-MAY-2018', 'Kuala Lumpur', 'Penang','MON', 'S04');
+insert into schedule values('S201805081130E', to_timestamp('11:30','hh24:mi'), '08-MAY-2018', 'Seberang Perai', 'Kedah', 'TUE', 'S02');
+insert into schedule values('K201805081230S', to_timestamp('12:30','hh24:mi'), '08-MAY-2018', 'Kuala Lumpur', 'Seberang Perai', 'TUE', 'S01');
+insert into schedule values('E201805091230K', to_timestamp('12:30','hh24:mi'), '09-MAY-2018', 'Kedah', 'Kuala Lumpur', 'WED', 'S02');
+insert into schedule values('P201805091530S', to_timestamp('15:30','hh24:mi'), '09-MAY-2018', 'Penang', 'Seberang Perai', 'WED', 'S04');
+insert into schedule values('P201805101330K', to_timestamp('13:30','hh24:mi'), '10-MAY-2018', 'Penang', 'Kuala Lumpur', 'THU', 'D02');
+insert into schedule values('P201805101530S', to_timestamp('15:30','hh24:mi'), '10-MAY-2018', 'Penang', 'Seberang Perai', 'THU', 'D01');
+insert into schedule values('S201805111230E', to_timestamp('12:30','hh24:mi'), '11-MAY-2018', 'Seberang Perai', 'Kedah', 'FRI', 'S03');
+insert into schedule values('S201805111500P', to_timestamp('15:00','hh24:mi'), '11-MAY-2018', 'Seberang Perai', 'Penang', 'FRI', 'S01');
+ 
+insert into schedule values('K201805141130S', to_timestamp('11:30','hh24:mi'), '14-MAY-2018', 'Kuala Lumpur', 'Seberang Perai', 'TUE', 'S02');
+insert into schedule values('K201805141330S', to_timestamp('13:30','hh24:mi'), '14-MAY-2018', 'Kuala Lumpur', 'Seberang Perai', 'TUE', 'D02');
+insert into schedule values('E201805151330K', to_timestamp('13:30','hh24:mi'), '15-MAY-2018', 'Kedah', 'Kuala Lumpur', 'WED', 'S03');
+insert into schedule values('P201805151530E', to_timestamp('15:30','hh24:mi'), '15-MAY-2018', 'Penang', 'Kedah', 'WED', 'S01');
+insert into schedule values('S201805161030K', to_timestamp('10:30','hh24:mi'), '16-MAY-2018', 'Seberang Perai', 'Kuala Lumpur', 'THU', 'S04');
+insert into schedule values('E201805161530S', to_timestamp('15:30','hh24:mi'), '16-MAY-2018', 'Kedah', 'Seberang Perai', 'THU', 'S01');
+insert into schedule values('K201805171130E', to_timestamp('11:30','hh24:mi'), '17-MAY-2018', 'Kuala Lumpur', 'Kedah', 'FRI', 'S03');
+insert into schedule values('S201805171200P', to_timestamp('12:00','hh24:mi'), '17-MAY-2018', 'Seberang Perai', 'Penang', 'FRI', 'S01');
+insert into schedule values('S201805181130K', to_timestamp('11:30','hh24:mi'), '18-MAY-2018', 'Seberang Perai', 'Kuala Lumpur', 'MON', 'D02');
+insert into schedule values('S201805181200K', to_timestamp('12:30','hh24:mi'), '18-MAY-2018', 'Seberang Perai',  'Kuala Lumpur', 'MON', 'D01');
+ 
+insert into schedule values('P201805211130K', to_timestamp('11:30','hh24:mi'), '21-MAY-2018', 'Penang', 'Kuala Lumpur', 'MON', 'S01');
+insert into schedule values('E201805211200K', to_timestamp('12:00','hh24:mi'), '21-MAY-2018', 'Kedah',  'Kuala Lumpur', 'MON', 'S03');
+insert into schedule values('K201805221130P', to_timestamp('11:30','hh24:mi'), '22-MAY-2018', 'Kuala Lumpur', 'Penang', 'TUE', 'S01');
+insert into schedule values('K201805221330S', to_timestamp('13:30','hh24:mi'), '22-MAY-2018', 'Kuala Lumpur', 'Seberang Perai', 'TUE', 'S04');
+insert into schedule values('K201805231330S', to_timestamp('13:30','hh24:mi'), '23-MAY-2018', 'Kuala Lumpur', 'Seberang Perai', 'WED', 'D01');
+insert into schedule values('K201805231530S', to_timestamp('15:30','hh24:mi'), '23-MAY-2018', 'Kuala Lumpur', 'Seberang Perai', 'WED', 'D02');
+insert into schedule values('S201805241030K', to_timestamp('10:30','hh24:mi'), '24-MAY-2018', 'Seberang Perai', 'Kuala Lumpur', 'THU', 'D01');
+insert into schedule values('E201805241530S', to_timestamp('15:30','hh24:mi'), '24-MAY-2018', 'Kuala Lumpur', 'Seberang Perai', 'THU', 'S03');
+insert into schedule values('K201805251130E', to_timestamp('11:30','hh24:mi'), '25-MAY-2018', 'Penang', 'Kedah', 'FRI', 'S01');
+insert into schedule values('S201805251200P', to_timestamp('12:00','hh24:mi'), '25-MAY-2018', 'Seberang Perai', 'Penang', 'FRI', 'S02');
+ 
+insert into schedule values('E201805281230K', to_timestamp('12:30','hh24:mi'), '28-MAY-2018', 'Kedah', 'Kuala Lumpur', 'MON', 'S01');
+insert into schedule values('K201805281530P', to_timestamp('15:30','hh24:mi'), '28-MAY-2018', 'Kuala Lumpur', 'Penang', 'MON', 'D01');
+insert into schedule values('S201805291130E', to_timestamp('11:30','hh24:mi'), '29-MAY-2018', 'Seberang Perai', 'Kedah', 'TUE', 'S03');
+insert into schedule values('K201805291230S', to_timestamp('12:30','hh24:mi'), '29-MAY-2018', 'Kuala Lumpur', 'Seberang Perai', 'TUE', 'S01');
+insert into schedule values('E201805301230K', to_timestamp('12:30','hh24:mi'), '30-MAY-2018', 'Kedah', 'Kuala Lumpur', 'WED', 'S03');
+insert into schedule values('P201805301530S', to_timestamp('15:30','hh24:mi'), '30-MAY-2018', 'Penang', 'Seberang Perai', 'WED', 'D01');
+insert into schedule values('E201805311330K', to_timestamp('13:30','hh24:mi'), '31-MAY-2018', 'Seberang Perai', 'Kuala Lumpur', 'THU', 'S04');
+insert into schedule values('S201805311530S', to_timestamp('15:30','hh24:mi'), '31-MAY-2018', 'Seberang Perai', 'Penang', 'THU', 'D02');
+insert into schedule values('P201806011230E', to_timestamp('12:30','hh24:mi'), '01-JUN-2018', 'Penang', 'Kedah', 'FRI', 'S02');
+insert into schedule values('S201806011500P', to_timestamp('15:00','hh24:mi'), '01-JUN-2018', 'Seberang Perai', 'Penang', 'FRI', 'S01');
+ 
+insert into schedule values('P201806041030E', to_timestamp('10:30','hh24:mi'), '04-JUN-2018', 'Kuala Lumpur', 'Kedah', 'MON', 'S04');	
+insert into schedule values('P201806041530K', to_timestamp('15:30','hh24:mi'), '04-JUN-2018', 'Penang', 'Kuala Lumpur', 'MON', 'D02'); 
+insert into schedule values('E201806051230K', to_timestamp('12:30','hh24:mi'), '05-JUN-2018', 'Kedah', 'Kuala Lumpur', 'TUE', 'S02');
+insert into schedule values('P201806051300S', to_timestamp('13:00','hh24:mi'), '05-JUN-2018', 'Penang', 'Seberang Perai', 'TUE', 'S01');
+insert into schedule values('K201806061330P', to_timestamp('13:30','hh24:mi'), '06-JUN-2018', 'Kuala Lumpur', 'Penang', 'WED', 'S02');
+insert into schedule values('K201806061330E', to_timestamp('13:30','hh24:mi'), '06-JUN-2018', 'Kuala Lumpur', 'Kedah', 'WED', 'S03');  
+insert into schedule values('P201806071430E', to_timestamp('14:30','hh24:mi'), '07-JUN-2018', 'Penang', 'Kedah', 'THU', 'S02');
+insert into schedule values('S201806071600K', to_timestamp('16:00','hh24:mi'), '07-JUN-2018', 'Seberang Perai', 'Kuala Lumpur', 'THU', 'D01');  
+insert into schedule values('S201806081130P', to_timestamp('11:30','hh24:mi'), '08-JUN-2018', 'Seberang Perai', 'Penang', 'FRI', 'S01'); 
+insert into schedule values('E201806081230S', to_timestamp('12:30','hh24:mi'), '08-JUN-2018', 'Kedah', 'Seberang Perai', 'FRI', 'S02'); 
+ 
+insert into schedule values('K201806111030P', to_timestamp('10:30','hh24:mi'), '11-JUN-2018', 'Kuala Lumpur', 'Penang', 'MON', 'D01'); 
+insert into schedule values('E201806111230K', to_timestamp('12:30','hh24:mi'), '11-JUN-2018', 'Kedah', 'Kuala Lumpur', 'MON', 'S03');	
+insert into schedule values('P201806121230K', to_timestamp('12:30','hh24:mi'), '12-JUN-2018', 'Penang', 'Kuala Lumpur', 'TUE', 'S01');
+insert into schedule values('K201806121500P', to_timestamp('15:00','hh24:mi'), '12-JUN-2018', 'Kuala Lumpur', 'Penang', 'TUE', 'S03');
+insert into schedule values('P201806131030S', to_timestamp('10:30','hh24:mi'), '13-JUN-2018', 'Penang', 'Seberang Perai', 'WED', 'D01');
+insert into schedule values('K201806131330E', to_timestamp('13:30','hh24:mi'), '13-JUN-2018', 'Kuala Lumpur', 'Kedah', 'WED', 'S01');  
+insert into schedule values('K201806141130E', to_timestamp('11:30','hh24:mi'), '14-JUN-2018', 'Kuala Lumpur', 'Kedah', 'THU', 'D02');
+insert into schedule values('S201806141500K', to_timestamp('15:00','hh24:mi'), '14-JUN-2018', 'Seberang Perai', 'Kuala Lumpur', 'THU', 'S02');  
+insert into schedule values('E201806151130P', to_timestamp('11:30','hh24:mi'), '15-JUN-2018', 'Kedah', 'Penang', 'FRI', 'D02'); 
+insert into schedule values('E201806151330S', to_timestamp('13:30','hh24:mi'), '15-JUN-2018', 'Kedah', 'Seberang Perai', 'FRI', 'S04'); 
+
+insert into schedule values('K201806181000P', to_timestamp('10:00','hh24:mi'), '18-JUN-2018', 'Kuala Lumpur', 'Penang', 'MON', 'S02');
+insert into schedule values('E201806181230K', to_timestamp('12:30','hh24:mi'), '18-JUN-2018', 'Kedah', 'Kuala Lumpur', 'MON', 'S01');
+insert into schedule values('P201806191100E', to_timestamp('11:00','hh24:mi'), '19-JUN-2018', 'Penang', 'Kedah', 'TUE', 'S03');
+insert into schedule values('P201806191530E', to_timestamp('15:30','hh24:mi'), '19-JUN-2018', 'Penang', 'Kedah', 'TUE', 'D02');
+insert into schedule values('K201806201330P', to_timestamp('13:30','hh24:mi'), '20-JUN-2018', 'Kuala Lumpur', 'Penang', 'WED', 'S01');
+insert into schedule values('S201806201430P', to_timestamp('14:30','hh24:mi'), '20-JUN-2018', 'Seberang Perai', 'Penang', 'WED', 'S04');
+insert into schedule values('P201806211030K', to_timestamp('10:30','hh24:mi'), '21-JUN-2018', 'Penang', 'Kuala Lumpur', 'THU', 'S02');
+insert into schedule values('S201806211300E', to_timestamp('13:00','hh24:mi'), '21-JUN-2018', 'Seberang Perai', ‘Kedah', ‘THU', ‘D01');
+insert into schedule values('E201806221130K', to_timestamp('11:30','hh24:mi'), '22-JUN-2018', 'Kedah', 'Kuala Lumpur', 'FRI', 'D02');
+insert into schedule values('P201806221530K', to_timestamp('15:30','hh24:mi'), '22-JUN-2018', 'Penang', 'Kuala Lumpur', 'FRI', 'S04');
+ 
+insert into schedule values('E201806251000P', to_timestamp('10:00','hh24:mi'), '25-JUN-2018', 'Kedah', 'Penang', 'MON', 'S03');
+insert into schedule values('K201806251130S', to_timestamp('11:30','hh24:mi'), '25-JUN-2018', 'Kuala Lumpur', 'Seberang Perai', 'MON', 'D02'); 
+insert into schedule values('P201806261330K', to_timestamp('13:30','hh24:mi'), '26-JUN-2018', 'Penang', 'Kuala Lumpur', 'TUE', 'S01');
+insert into schedule values('E201806261430K', to_timestamp('14:30','hh24:mi'), '26-JUN-2018', 'Kedah', 'Kuala Lumpur', 'TUE', 'D01');
+insert into schedule values('K201806271530P', to_timestamp('15:30','hh24:mi'), '27-JUN-2018', 'Kuala Lumpur', 'Penang', 'WED', 'S02');
+insert into schedule values('P201806271600E', to_timestamp('16:00','hh24:mi'), '27-JUN-2018', 'Penang', 'Kedah', 'WED', 'S03'); 
+insert into schedule values('P201806281030S', to_timestamp('10:30','hh24:mi'), '28-JUN-2018', 'Penang', 'Seberang Perai', 'THU', 'S02'); 
+insert into schedule values('K201806281230S', to_timestamp('12:30','hh24:mi'), '28-JUN-2018', 'Kuala Lumpur', 'Seberang Perai', 'THU', 'S01'); 
+insert into schedule values('K201806291030P', to_timestamp('10:30','hh24:mi'), '29-JUN-2018', 'Kuala Lumpur', 'Penang', 'FRI', 'S04'); 
+insert into schedule values('K201806291130E', to_timestamp('11:30','hh24:mi'), '29-JUN-2018', 'Kuala Lumpur', 'Kedah', 'FRI', 'D01');  
+ 
+insert into schedule values('P201807011030K', to_timestamp('10:30','hh24:mi'), '01-JUL-2018', 'Penang', 'Kuala Lumpur', 'SUN', 'S01');
+insert into schedule values('K201807011030P', to_timestamp('10:30','hh24:mi'), '01-JUL-2018', 'Kuala Lumpur', 'Penang', 'SUN', 'S03');
+insert into schedule values('P201808081330K', to_timestamp('13:30','hh24:mi'), '08-AUG-2018', 'Penang', 'Kuala Lumpur', 'WED', 'S01');
+ 
+insert into schedule values('P201809271330K', to_timestamp('13:30','hh24:mi'), '27-SEP-2018', 'Penang', 'Kuala Lumpur', 'THU', 'S01');
+insert into schedule values('K201809281530P', to_timestamp('15:30','hh24:mi'), '28-SEP-2018', 'Kuala Lumpur', 'Penang', 'FRI', 'S01');
+insert into schedule values('P201810051230K', to_timestamp('12:30','hh24:mi'), '05-OCT-2018', 'Penang', 'Kuala Lumpur', 'FRI', 'S01');
+insert into schedule values('P201810091030K', to_timestamp('10:30','hh24:mi'), '09-OCT-2018', 'Penang', 'Kuala Lumpur', 'TUE', 'S01');
+insert into schedule values('K201810271030P', to_timestamp('10:30','hh24:mi'), '27-OCT-2018', 'Kuala Lumpur', 'Penang', 'SAT', 'S01');
+insert into schedule values('P201811101330K', to_timestamp('13:30','hh24:mi'), '10-NOV-2018', 'Penang', 'Kuala Lumpur', 'SAT', 'S01');
+insert into schedule values('P201811211130K', to_timestamp('11:30','hh24:mi'), '21-NOV-2018', 'Penang', 'Kuala Lumpur', 'WED', 'S01');
+insert into schedule values('K201811281530P', to_timestamp('15:30','hh24:mi'), '28-NOV-2018', 'Kuala Lumpur', 'Penang' ,'WED', 'S01');
+insert into schedule values('P201812041530K', to_timestamp('15:30','hh24:mi'), '04-DEC-2018', 'Penang', 'Kuala Lumpur','TUE', 'S01');
+insert into schedule values('K201812061330P', to_timestamp('16:30','hh24:mi'), '06-DEC-2018', 'Kuala Lumpur', 'Penang','THU', 'S01');
+insert into schedule values('P201812121230K', to_timestamp('12:30','hh24:mi'), '29-DEC-2018', 'Penang', 'Kuala Lumpur','FRI', 'S01');
+insert into schedule values('P201812211030K', to_timestamp('10:30','hh24:mi'), '29-DEC-2018', 'Penang', 'Kuala Lumpur','FRI', 'S01');
+insert into schedule values('K201812291030P', to_timestamp('17:30','hh24:mi'), '29-DEC-2018', 'Kuala Lumpur', 'Penang','SAT', 'S01');
+
+
+
+
+
+
+
+
+
+
+
+
+

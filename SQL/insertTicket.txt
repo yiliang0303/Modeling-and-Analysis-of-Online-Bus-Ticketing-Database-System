@@ -1,0 +1,361 @@
+insert into ticket values('A000001',42.5,11,'P201801011030K','S000001');
+insert into ticket values('A000002',42.5,12,'P201801011030K','S000001');
+insert into ticket values('A000003',42.5,13,'P201801011030K','S000002');
+insert into ticket values('A000004',42.5,14,'P201801011030K','S000002');
+insert into ticket values('A000005',42.5,21,'P201801011030K','S000003');
+insert into ticket values('A000006',42.5,22,'P201801011030K','S000003');
+insert into ticket values('A000007',42.5,23,'P201801011030K','S000003');
+insert into ticket values('A000008',42.5,24,'P201801011030K','S000003');
+insert into ticket values('A000009',42.5,31,'P201801011030K','S000004');
+insert into ticket values('A000010',42.5,32,'P201801011030K','S000005');
+insert into ticket values('A000011',42.5,33,'P201801011030K','S000006');
+insert into ticket values('A000012',42.5,34,'P201801011030K','S000007');
+insert into ticket values('A000013',42.5,41,'P201801011030K','S000008');
+insert into ticket values('A000014',42.5,42,'P201801011030K','S000008');
+insert into ticket values('A000015',42.5,43,'P201801011030K','S000008');
+insert into ticket values('A000016',42.5,44,'P201801011030K','S000008');
+insert into ticket values('A000017',42.5,51,'P201801011030K','S000008');
+insert into ticket values('A000018',42.5,52,'P201801011030K','S000008');
+insert into ticket values('A000019',42.5,53,'P201801011030K','S000009');
+insert into ticket values('A000020',42.5,54,'P201801011030K','S000010');
+ 
+insert into ticket values('A000021',42.5,61,'P201801011030K','S000011');
+insert into ticket values('A000022',42.5,62,'P201801011030K','S000012');
+insert into ticket values('A000023',42.5,63,'P201801011030K','S000013');
+insert into ticket values('A000024',42.5,64,'P201801011030K','S000014');
+insert into ticket values('A000025',42.5,71,'P201801011030K','S000015');
+insert into ticket values('A000026',42.5,72,'P201801011030K','S000015');
+insert into ticket values('A000027',42.5,73,'P201801011030K','S000016');
+insert into ticket values('A000028',42.5,74,'P201801011030K','S000017');
+insert into ticket values('A000029',42.5,11,'K201801011030P','S000018');
+insert into ticket values('A000030',42.5,12,'K201801011030P','S000019');
+insert into ticket values('A000031',42.5,13,'K201801011030P','S000019');
+insert into ticket values('A000032',42.5,14,'K201801011030P','S000019');
+insert into ticket values('A000033',42.5,21,'K201801011030P','S000019');
+insert into ticket values('A000034',42.5,22,'K201801011030P','S000019');
+insert into ticket values('A000035',42.5,23,'K201801011030P','S000019');
+insert into ticket values('A000036',42.5,24,'K201801011030P','S000019');
+insert into ticket values('A000037',42.5,31,'K201801011030P','S000020');
+insert into ticket values('A000038',42.5,32,'K201801011030P','S000020');
+insert into ticket values('A000039',42.5,33,'K201801011030P','S000020');
+insert into ticket values('A000040',42.5,34,'K201801011030P','S000021');
+insert into ticket values('A000041',42.5,41,'K201801011030P','S000022');
+insert into ticket values('A000042',42.5,42,'K201801011030P','S000023');
+insert into ticket values('A000043',42.5,43,'K201801011030P','S000024');
+insert into ticket values('A000044',42.5,44,'K201801011030P','S000025');
+insert into ticket values('A000045',42.5,51,'K201801011030P','S000026');
+insert into ticket values('A000046',42.5,52,'K201801011030P','S000027');
+insert into ticket values('A000047',42.5,53,'K201801011030P','S000028');
+insert into ticket values('A000048',42.5,54,'K201801011030P','S000029');
+insert into ticket values('A000049',42.5,61,'K201801011030P','S000030');
+insert into ticket values('A000050',42.5,61,'K201801011030P','S000031');
+insert into ticket values('A000051',42.5,63,'K201801011030P','S000031');
+insert into ticket values('A000052',42.5,64,'K201801011030P','S000031');
+insert into ticket values('A000053',42.5,71,'K201801011030P','S000032');
+insert into ticket values('A000054',42.5,72,'K201801011030P','S000032');
+insert into ticket values('A000055',42.5,73,'K201801011030P','S000032');
+
+insert into ticket values('A000056',42.5,11,'P201802081330K','S000033');
+insert into ticket values('A000057',42.5,12,'P201802081330K','S000034');
+insert into ticket values('A000058',42.5,13,'P201802081330K','S000035');
+insert into ticket values('A000059',42.5,14,'P201802081330K','S000035');
+insert into ticket values('A000060',42.5,21,'P201802081330K','S000035');
+insert into ticket values('A000061',42.5,22,'P201802081330K','S000035');
+insert into ticket values('A000062',42.5,23,'P201802081330K','S000035');
+insert into ticket values('A000063',42.5,24,'P201802081330K','S000036');
+insert into ticket values('A000064',42.5,71,'P201802081330K','S000037');
+insert into ticket values('A000065',42.5,72,'P201802081330K','S000038');
+insert into ticket values('A000066',42.5,73,'P201802081330K','S000039');
+insert into ticket values('A000067',42.5,74,'P201802081330K','S000040');
+
+insert into ticket values('A000068',42.5,71,'P201803271330K','S000041');
+insert into ticket values('A000069',42.5,72,'P201803271330K','S000044');
+insert into ticket values('A000070',42.5,73,'P201803271330K','S000043');
+insert into ticket values('A000071',42.5,74,'P201803271330K','S000043');
+ 
+insert into ticket values('A000072',42.5,61,'K201803281530P','S000044');
+insert into ticket values('A000073',42.5,62,'K201803281530P','S000045');
+insert into ticket values('A000074',42.5,63,'K201803281530P','S000046');
+insert into ticket values('A000075',42.5,64,'K201803281530P','S000047');
+insert into ticket values('A000076',42.5,71,'K201803281530P','S000048');
+insert into ticket values('A000077',42.5,72,'K201803281530P','S000049');
+insert into ticket values('A000078',42.5,73,'K201803281530P','S000049');
+insert into ticket values('A000079',42.5,74,'K201803281530P','S000049');
+
+insert into ticket values('A000080',42.5,61,'P201804051230K','S000050');
+insert into ticket values('A000081',42.5,62,'P201804051230K','S000051');
+insert into ticket values('A000082',42.5,63,'P201804051230K','S000052');
+insert into ticket values('A000083',42.5,64,'P201804051230K','S000052');
+insert into ticket values('A000084',42.5,71,'P201804051230K','S000052');
+insert into ticket values('A000085',42.5,72,'P201804051230K','S000053');
+insert into ticket values('A000086',42.5,73,'P201804051230K','S000054');
+insert into ticket values('A000087',42.5,74,'P201804051230K','S000055');
+ 
+insert into ticket values('A000088',42.5,71,'P201804091030K','S000056');
+insert into ticket values('A000089',42.5,72,'P201804091030K','S000056');
+insert into ticket values('A000090',42.5,73,'P201804091030K','S000056');
+insert into ticket values('A000091',42.5,74,'P201804091030K','S000056');
+ 
+insert into ticket values('A000092',42.5,51,'K201804271030P','S000057');
+insert into ticket values('A000093',42.5,52,'K201804271030P','S000057');
+insert into ticket values('A000094',42.5,53,'K201804271030P','S000057');
+insert into ticket values('A000095',42.5,54,'K201804271030P','S000057');
+insert into ticket values('A000096',42.5,71,'K201804271030P','S000057');
+insert into ticket values('A000097',42.5,72,'K201804271030P','S000058');
+insert into ticket values('A000098',42.5,73,'K201804271030P','S000059');
+insert into ticket values('A000099',42.5,74,'K201804271030P','S000060');
+
+insert into ticket values('A000100',42.5,61,'P201805101330K','S000061');
+insert into ticket values('A000101',42.5,62,'P201805101330K','S000062');
+insert into ticket values('A000102',42.5,63,'P201805101330K','S000063');
+insert into ticket values('A000103',42.5,64,'P201805101330K','S000064');
+insert into ticket values('A000104',42.5,71,'P201805101330K','S000065');
+insert into ticket values('A000105',42.5,72,'P201805101330K','S000066');
+insert into ticket values('A000106',42.5,73,'P201805101330K','S000067');
+insert into ticket values('A000107',42.5,74,'P201805101330K','S000068');
+ 
+insert into ticket values('A000108',42.5,51,'P201805211130K','S000069');
+insert into ticket values('A000109',42.5,52,'P201805211130K','S000069');
+insert into ticket values('A000110',42.5,71,'P201805211130K','S000069');
+insert into ticket values('A000111',42.5,72,'P201805211130K','S000069');
+insert into ticket values('A000112',42.5,73,'P201805211130K','S000069');
+insert into ticket values('A000113',42.5,74,'P201805211130K','S000069');
+ 
+insert into ticket values('A000114',42.5,51,'K201805281530P','S000070');
+insert into ticket values('A000115',42.5,52,'K201805281530P','S000071');
+insert into ticket values('A000116',42.5,71,'K201805281530P','S000072');
+insert into ticket values('A000117',42.5,72,'K201805281530P','S000073');
+
+insert into ticket values('A000118',42.5,11,'P201806041530K','S000074');
+insert into ticket values('A000119',42.5,12,'P201806041530K','S000074');
+insert into ticket values('A000120',42.5,13,'P201806041530K','S000074');
+insert into ticket values('A000121',42.5,14,'P201806041530K','S000075');
+insert into ticket values('A000122',42.5,51,'P201806041530K','S000075');
+insert into ticket values('A000123',42.5,52,'P201806041530K','S000075');
+insert into ticket values('A000124',42.5,71,'P201806041530K','S000076');
+insert into ticket values('A000125',42.5,72,'P201806041530K','S000077');
+ 
+insert into ticket values('A000126',42.5,61,'K201806061330P','S000078');
+insert into ticket values('A000127',42.5,62,'K201806061330P','S000079');
+insert into ticket values('A000128',42.5,71,'K201806061330P','S000080');
+insert into ticket values('A000129',42.5,72,'K201806061330P','S000081');
+ 
+insert into ticket values('A000130',42.5,11,'P201806121230K','S000082');
+insert into ticket values('A000131',42.5,12,'P201806121230K','S000082');
+insert into ticket values('A000132',42.5,13,'P201806121230K','S000082');
+insert into ticket values('A000133',42.5,14,'P201806121230K','S000082');
+insert into ticket values('A000134',42.5,51,'P201806121230K','S000083');
+insert into ticket values('A000135',42.5,52,'P201806121230K','S000084');
+insert into ticket values('A000136',42.5,71,'P201806121230K','S000085');
+insert into ticket values('A000137',42.5,72,'P201806121230K','S000086');
+insert into ticket values('A000138',42.5,73,'P201806121230K','S000087');
+insert into ticket values('A000139',42.5,74,'P201806121230K','S000088');
+ 
+insert into ticket values('A000140',42.5,21,'P201806211030K','S000089');
+insert into ticket values('A000141',42.5,22,'P201806211030K','S000089');
+insert into ticket values('A000142',42.5,23,'P201806211030K','S000089');
+insert into ticket values('A000143',42.5,24,'P201806211030K','S000090');
+insert into ticket values('A000144',42.5,51,'P201806211030K','S000090');
+insert into ticket values('A000145',42.5,52,'P201806211030K','S000090');
+insert into ticket values('A000146',42.5,53,'P201806211030K','S000090');
+insert into ticket values('A000147',42.5,54,'P201806211030K','S000090');
+insert into ticket values('A000148',42.5,71,'P201806211030K','S000091');
+insert into ticket values('A000149',42.5,72,'P201806211030K','S000091');
+insert into ticket values('A000150',42.5,73,'P201806211030K','S000092');
+insert into ticket values('A000151',42.5,74,'P201806211030K','S000093');
+ 
+insert into ticket values('A000152',42.5,11,'K201806291030P','S000094');
+insert into ticket values('A000153',42.5,12,'K201806291030P','S000095');
+insert into ticket values('A000154',42.5,13,'K201806291030P','S000096');
+insert into ticket values('A000155',42.5,14,'K201806291030P','S000097');
+insert into ticket values('A000156',42.5,51,'K201806291030P','S000098');
+insert into ticket values('A000157',42.5,52,'K201806291030P','S000098');
+insert into ticket values('A000158',42.5,71,'K201806291030P','S000098');
+insert into ticket values('A000159',42.5,72,'K201806291030P','S000098');
+insert into ticket values('A000160',42.5,73,'K201806291030P','S000099');
+insert into ticket values('A000161',42.5,74,'K201806291030P','S000100');
+
+ 
+insert into ticket values('A000162',42.5,12,'P201807011030K','S000101');
+insert into ticket values('A000163',42.5,13,'P201807011030K','S000101');
+insert into ticket values('A000164',42.5,14,'P201807011030K','S000101');
+insert into ticket values('A000165',42.5,21,'P201807011030K','S000101');
+insert into ticket values('A000166',42.5,22,'P201807011030K','S000101');
+insert into ticket values('A000167',42.5,23,'P201807011030K','S000101');
+insert into ticket values('A000168',42.5,24,'P201807011030K','S000102');
+insert into ticket values('A000169',42.5,31,'P201807011030K','S000102');
+insert into ticket values('A000170',42.5,32,'P201807011030K','S000102');
+insert into ticket values('A000171',42.5,33,'P201807011030K','S000102');
+insert into ticket values('A000172',42.5,34,'P201807011030K','S000102');
+insert into ticket values('A000173',42.5,41,'P201807011030K','S000103');
+insert into ticket values('A000174',42.5,42,'P201807011030K','S000103');
+insert into ticket values('A000175',42.5,43,'P201807011030K','S000103');
+insert into ticket values('A000176',42.5,44,'P201807011030K','S000103');
+insert into ticket values('A000177',42.5,51,'P201807011030K','S000104');
+insert into ticket values('A000178',42.5,52,'P201807011030K','S000105');
+insert into ticket values('A000179',42.5,53,'P201807011030K','S000106');
+insert into ticket values('A000180',42.5,54,'P201807011030K','S000107');
+insert into ticket values('A000181',42.5,61,'P201807011030K','S000107');
+insert into ticket values('A000182',42.5,62,'P201807011030K','S000107');
+insert into ticket values('A000183',42.5,63,'P201807011030K','S000107');
+insert into ticket values('A000184',42.5,64,'P201807011030K','S000108');
+insert into ticket values('A000185',42.5,71,'P201807011030K','S000108');
+insert into ticket values('A000186',42.5,72,'P201807011030K','S000108');
+insert into ticket values('A000187',42.5,73,'P201807011030K','S000108');
+insert into ticket values('A000188',42.5,74,'P201807011030K','S000108');
+insert into ticket values('A000189',42.5,11,'K201807011030P','S000108');
+insert into ticket values('A000190',42.5,12,'K201807011030P','S000108');
+insert into ticket values('A000191',42.5,13,'K201807011030P','S000109');
+insert into ticket values('A000192',42.5,14,'K201807011030P','S000109');
+insert into ticket values('A000193',42.5,21,'K201807011030P','S000109');
+insert into ticket values('A000194',42.5,22,'K201807011030P','S000109');
+insert into ticket values('A000195',42.5,23,'K201807011030P','S000109');
+insert into ticket values('A000196',42.5,24,'K201807011030P','S000109');
+insert into ticket values('A000197',42.5,31,'K201807011030P','S000110');
+insert into ticket values('A000198',42.5,32,'K201807011030P','S000110');
+insert into ticket values('A000199',42.5,33,'K201807011030P','S000110');
+insert into ticket values('A000200',42.5,34,'K201807011030P','S000111');
+insert into ticket values('A000201',42.5,41,'K201807011030P','S000111');
+insert into ticket values('A000202',42.5,42,'K201807011030P','S000111');
+insert into ticket values('A000203',42.5,43,'K201807011030P','S000112');
+insert into ticket values('A000204',42.5,44,'K201807011030P','S000113');
+insert into ticket values('A000205',42.5,51,'K201807011030P','S000113');
+insert into ticket values('A000206',42.5,52,'K201807011030P','S000113');
+insert into ticket values('A000207',42.5,53,'K201807011030P','S000113');
+insert into ticket values('A000208',42.5,54,'K201807011030P','S000113');
+insert into ticket values('A000209',42.5,61,'K201807011030P','S000114');
+insert into ticket values('A000210',42.5,61,'K201807011030P','S000114');
+insert into ticket values('A000211',42.5,63,'K201807011030P','S000115');
+insert into ticket values('A000212',42.5,64,'K201807011030P','S000116');
+insert into ticket values('A000213',42.5,71,'K201807011030P','S000117');
+insert into ticket values('A000214',42.5,72,'K201807011030P','S000118');
+insert into ticket values('A000215',42.5,73,'K201807011030P','S000119');
+
+
+insert into ticket values('A000216',42.5,11,'P201808081330K','S000120');
+insert into ticket values('A000217',42.5,12,'P201808081330K','S000120');
+insert into ticket values('A000218',42.5,13,'P201808081330K','S000121');
+insert into ticket values('A000219',42.5,14,'P201808081330K','S000121');
+insert into ticket values('A000220',42.5,21,'P201808081330K','S000122');
+insert into ticket values('A000221',42.5,22,'P201808081330K','S000122');
+insert into ticket values('A000222',42.5,23,'P201808081330K','S000122');
+insert into ticket values('A000223',42.5,24,'P201808081330K','S000123');
+insert into ticket values('A000224',42.5,71,'P201808081330K','S000123');
+insert into ticket values('A000225',42.5,72,'P201808081330K','S000124');
+insert into ticket values('A000226',42.5,73,'P201808081330K','S000124');
+insert into ticket values('A000227',42.5,74,'P201808081330K','S000124');
+insert into ticket values('A000228',42.5,71,'P201808081330K','S000124');
+
+
+insert into ticket values('A000229',42.5,72,'P201809271330K','S000125');
+insert into ticket values('A000230',42.5,73,'P201809271330K','S000125');
+insert into ticket values('A000231',42.5,74,'P201809271330K','S000125');
+ 
+insert into ticket values('A000232',42.5,61,'K201809281530P','S000125');
+insert into ticket values('A000233',42.5,62,'K201809281530P','S000125');
+insert into ticket values('A000234',42.5,71,'K201809281530P','S000126');
+insert into ticket values('A000235',42.5,72,'K201809281530P','S000127');
+insert into ticket values('A000236',42.5,73,'K201809281530P','S000127');
+insert into ticket values('A000237',42.5,74,'K201809281530P','S000128');
+
+
+insert into ticket values('A000238',42.5,61,'P201810051230K','S000129');
+insert into ticket values('A000239',42.5,61,'P201810051230K','S000130');
+insert into ticket values('A000240',42.5,61,'P201810051230K','S000131');
+insert into ticket values('A000241',42.5,62,'P201810051230K','S000132');
+insert into ticket values('A000242',42.5,63,'P201810051230K','S000132');
+insert into ticket values('A000243',42.5,64,'P201810051230K','S000133');
+insert into ticket values('A000244',42.5,71,'P201810051230K','S000134');
+insert into ticket values('A000245',42.5,72,'P201810051230K','S000135');
+insert into ticket values('A000246',42.5,73,'P201810051230K','S000136');
+insert into ticket values('A000247',42.5,74,'P201810051230K','S000137');
+ 
+insert into ticket values('A000248',42.5,71,'P201810091030K','S000138');
+insert into ticket values('A000249',42.5,72,'P201810091030K','S000138');
+insert into ticket values('A000250',42.5,73,'P201810091030K','S000138');
+insert into ticket values('A000251',42.5,74,'P201810091030K','S000138');
+ 
+insert into ticket values('A000252',42.5,51,'K201810271030P','S000139');
+insert into ticket values('A000253',42.5,52,'K201810271030P','S000139');
+insert into ticket values('A000254',42.5,53,'K201810271030P','S000139');
+insert into ticket values('A000255',42.5,54,'K201810271030P','S000140');
+insert into ticket values('A000256',42.5,71,'K201810271030P','S000140');
+insert into ticket values('A000257',42.5,72,'K201810271030P','S000141');
+insert into ticket values('A000258',42.5,73,'K201810271030P','S000142');
+insert into ticket values('A000259',42.5,74,'K201810271030P','S000143');
+
+
+insert into ticket values('A000260',42.5,61,'P201811101330K','S000144');
+insert into ticket values('A000261',42.5,62,'P201811101330K','S000144');
+insert into ticket values('A000262',42.5,63,'P201811101330K','S000145');
+insert into ticket values('A000263',42.5,64,'P201811101330K','S000145');
+insert into ticket values('A000264',42.5,71,'P201811101330K','S000145');
+insert into ticket values('A000265',42.5,72,'P201811101330K','S000146');
+insert into ticket values('A000266',42.5,73,'P201811101330K','S000146');
+insert into ticket values('A000267',42.5,74,'P201811101330K','S000146');
+ 
+insert into ticket values('A000268',42.5,51,'P201811211130K','S000147');
+insert into ticket values('A000269',42.5,52,'P201811211130K','S000147');
+insert into ticket values('A000270',42.5,71,'P201811211130K','S000147');
+insert into ticket values('A000271',42.5,72,'P201811211130K','S000148');
+insert into ticket values('A000272',42.5,73,'P201811211130K','S000148');
+insert into ticket values('A000273',42.5,74,'P201811211130K','S000148');
+ 
+insert into ticket values('A000274',42.5,51,'K201811281530P','S000149');
+insert into ticket values('A000275',42.5,52,'K201811281530P','S000149');
+insert into ticket values('A000276',42.5,71,'K201811281530P','S000149');
+
+
+insert into ticket values('A000277',42.5,72,'K201811281530P','S000150');
+insert into ticket values('A000278',42.5,11,'P201812041530K','S000150');
+insert into ticket values('A000279',42.5,12,'P201812041530K','S000150');
+insert into ticket values('A000280',42.5,13,'P201812041530K','S000151');
+insert into ticket values('A000281',42.5,14,'P201812041530K','S000151');
+insert into ticket values('A000282',42.5,51,'P201812041530K','S000151');
+insert into ticket values('A000283',42.5,52,'P201812041530K','S000152');
+insert into ticket values('A000284',42.5,71,'P201812041530K','S000152');
+insert into ticket values('A000285',42.5,72,'P201812041530K','S000152');
+ 
+insert into ticket values('A000286',42.5,61,'K201812061330P','S000153');
+insert into ticket values('A000287',42.5,62,'K201812061330P','S000153');
+insert into ticket values('A000288',42.5,71,'K201812061330P','S000153');
+insert into ticket values('A000289',42.5,72,'K201812061330P','S000153');
+ 
+insert into ticket values('A000290',42.5,11,'P201812121230K','S000154');
+insert into ticket values('A000291',42.5,12,'P201812121230K','S000154');
+insert into ticket values('A000292',42.5,13,'P201812121230K','S000155');
+insert into ticket values('A000293',42.5,14,'P201812121230K','S000155');
+insert into ticket values('A000294',42.5,51,'P201812121230K','S000155');
+insert into ticket values('A000295',42.5,52,'P201812121230K','S000156');
+insert into ticket values('A000296',42.5,71,'P201812121230K','S000156');
+insert into ticket values('A000297',42.5,72,'P201812121230K','S000156');
+insert into ticket values('A000298',42.5,73,'P201812121230K','S000157');
+insert into ticket values('A000299',42.5,74,'P201812121230K','S000157');
+ 
+insert into ticket values('A000300',42.5,21,'P201812211030K','S000158');
+insert into ticket values('A000301',42.5,22,'P201812211030K','S000158');
+insert into ticket values('A000302',42.5,23,'P201812211030K','S000158');
+insert into ticket values('A000303',42.5,24,'P201812211030K','S000159');
+insert into ticket values('A000304',42.5,51,'P201812211030K','S000159');
+insert into ticket values('A000305',42.5,52,'P201812211030K','S000159');
+insert into ticket values('A000306',42.5,53,'P201812211030K','S000160');
+insert into ticket values('A000307',42.5,54,'P201812211030K','S000160');
+insert into ticket values('A000308',42.5,71,'P201812211030K','S000160');
+insert into ticket values('A000309',42.5,72,'P201812211030K','S000160');
+insert into ticket values('A000310',42.5,73,'P201812211030K','S000160');
+insert into ticket values('A000311',42.5,74,'P201812211030K','S000161');
+ 
+insert into ticket values('A000312',42.5,11,'K201812291030P','S000162');
+insert into ticket values('A000313',42.5,12,'K201812291030P','S000162');
+insert into ticket values('A000314',42.5,13,'K201812291030P','S000163');
+insert into ticket values('A000315',42.5,14,'K201812291030P','S000163');
+insert into ticket values('A000316',42.5,51,'K201812291030P','S000164');
+insert into ticket values('A000317',42.5,52,'K201812291030P','S000165');
+insert into ticket values('A000318',42.5,71,'K201812291030P','S000165');
+insert into ticket values('A000319',42.5,72,'K201812291030P','S000166');
+insert into ticket values('A000320',42.5,73,'K201812291030P','S000167');
+insert into ticket values('A000321',42.5,74,'K201812291030P','S000168');
+insert into ticket values('A000322',42.5,74,'K201812291030P','S000169');
+insert into ticket values('A000323',42.5,74,'K201812291030P','S000169');
+insert into ticket values('A000324',42.5,74,'K201812291030P','S000170');
+insert into ticket values('A000325',42.5,74,'K201812291030P','S000170');

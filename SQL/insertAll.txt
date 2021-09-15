@@ -1,0 +1,6 @@
+@@ d:/insertBus.txt;
+@@ d:/insertCustomer.txt;
+@@ d:/insertStaff.txt;
+@@ d:/insertSchedule.txt;
+@@ d:/insertSales.txt;
+@@ d:/insertTicket.txt;

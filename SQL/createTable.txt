@@ -1,0 +1,70 @@
+CREATE TABLE Staff(
+StaffID		char(5)			not null check (StaffID Like('T%')),
+SName		varchar(30)		not null,
+SAddress	varchar(100),
+SAge		number(2,0)		check (SAge BETWEEN 18 and 60 ),
+SGender		char(3)			check (UPPER(SGender) in ('M','F')),
+S_email		varchar(30)		check (REGEXP_LIKE(S_email,'^[a-zA-Z]\w+@(\S+)$')),
+SPhoneNumber	char(10)		check (REGEXP_LIKE ( SPhoneNumber, '^01\d{8}|\d{9}$') ),
+Salary		number(8,2)		not null,
+EmploymentDate	date,
+Job_Title	varchar(30)		not null,
+working_hour	number(2)		not null,
+PRIMARY KEY(StaffID)
+);
+
+CREATE TABLE CUSTOMER (
+    CustomerID char(10) not null check (CustomerID Like('C%')),
+    CName varchar(60) not null,
+    CAddress varchar(100),
+    CAge number(3) not null,
+    CGender char(3) CHECK(UPPER(CGender) in ('M','F')),
+    C_email varchar(30) CHECK(REGEXP_LIKE(C_email,'^[a-zA-Z]\w+@(\S+)$')),
+    CPhoneNumber char(10) CHECK(REGEXP_LIKE ( CPhoneNumber, '^01\d{8}|\d{9}$') ),
+    CIdentityCard varchar(12),
+    PRIMARY KEY(CustomerID)
+);
+
+CREATE TABLE Bus(
+BusID		char(3)		not null,
+Model		varchar(20)	not null,
+PlateNumber	char(7)		not null,
+Colour		varchar(20),
+TotalSeat	number(2)	not null,
+PRIMARY KEY(BusID)
+);
+
+Create table Sales(
+SalesID		char(7)		not null check (SalesID Like('S%')),
+S_Date		Date	        not null,
+S_Time		timestamp(4)	not null,
+CustomerID	char(10)	not null check (CustomerID Like('C%')),
+StaffID		char(5)		not null check (StaffID Like('T%')),
+PRIMARY KEY(SalesID),
+FOREIGN KEY(CustomerID) REFERENCES CUSTOMER(CustomerID),
+FOREIGN KEY(StaffID) REFERENCES Staff(StaffID)
+);
+
+
+Create table Schedule(
+scheduleID		char(14)	not null,
+departureTime 		timestamp(6)	not null,
+departureDate		date		not null,
+departurePoint		varchar(30)	not null,
+destination		varchar(30)	not null,
+weekday			char(3)		check(UPPER(weekday) in ('MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN')),
+BusID			char(3)		not null,
+PRIMARY KEY(scheduleID),
+FOREIGN KEY(BusID) REFERENCES Bus(BusID)
+);
+
+Create table Ticket(
+TicketID	char(7)		not null,
+Price		number(6,2)	not null,
+SeatNumber	number(2)	not null,
+scheduleID	char(14)	not null,
+SalesID		char(7)		not null check (SalesID Like('S%')),
+PRIMARY KEY(TicketID),
+FOREIGN KEY(ScheduleID) REFERENCES Schedule(ScheduleID),
+FOREIGN KEY(SalesID) REFERENCES Sales(SalesID)
+);

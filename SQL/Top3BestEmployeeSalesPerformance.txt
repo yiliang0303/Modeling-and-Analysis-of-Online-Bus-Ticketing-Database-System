@@ -1,0 +1,29 @@
+SQL> @@F:\Report2.txt;
+
+System altered.
+
+Top Best Employee Sales Performance
+=================================
+Enter the number of employee >3
+Enter the month(MON) >Jun
+
+
+Top 1 Best Employee Sales Performance in Jun 2018
+====================================================
+old   7: 	departureDate between '01-&mon-18' AND last_day(to_Date('01-&mon-18'))
+new   7: 	departureDate between '01-Jun-18' AND last_day(to_Date('01-Jun-18'))
+old  10: where rownum <= &tbsp
+new  10: where rownum <= 3
+
+                                                    GOGO BUS COMPANY                                                    
+                                            =================================                                           
+                                    Top 3 Best Employee Sales Performance in Jun 2018                                    
+                                                                                                               Page:   1
+                                                                                                                        
+STAFF NAME                     Total Sales                                                                              
+------------------------------ -----------                                                                              
+Brenda Song                             11                                                                              
+Jackie Chan                              9                                                                              
+Karan Brar                               8                                                                              
+
+SQL> spool off;

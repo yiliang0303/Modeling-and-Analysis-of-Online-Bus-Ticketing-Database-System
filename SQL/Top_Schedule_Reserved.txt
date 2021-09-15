@@ -1,0 +1,23 @@
+SQL> @@d:\Insert_Top_Schedule_Reserved.txt;
+Search the Top Most Schedule Reserved
+*--------------------------------------*
+Enter the Number of Top Most Schedule Reserved>3
+Enter Year>2018
+Enter Month>Jun
+old   7:       S_Date between '01-&month-&year' and last_day(to_Date('01-&month-&year'))
+new   7:       S_Date between '01-Jun-2018' and last_day(to_Date('01-Jun-2018'))
+old  10: where rownum <= &top
+new  10: where rownum <= 3
+
+                                                    GOGO BUS COMPANY                                                    
+                                            =================================                                           
+                                    Monthly Top 3 Most Schedule Reserved in Jun 2018                                    
+                                                                                                               Page:   1
+                                                                                                                        
+Schedule ID    Departure Point           Destination               DEPARTURE  TOTALSEAT Ticket Sold(Qty)  Seat Left     
+-------------- ------------------------- ------------------------- --------- ---------- ---------------- ----------     
+K201807011030P Kuala Lumpur              Penang                    01-JUL-18         28               27          1     
+P201807011030K Penang                    Kuala Lumpur              01-JUL-18         27               27          0     
+P201806211030K Penang                    Kuala Lumpur              21-JUN-18         28               12         16     
+
+SQL> spool off;

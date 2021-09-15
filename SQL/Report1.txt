@@ -1,0 +1,32 @@
+set pagesize 30
+set linesize 120
+
+TTITLE CENTER 'GOGO BUS COMPANY' SKIP 1 - 
+CENTER ================================= SKIP 1 -
+CENTER'EMPLOYEE OVERTIME WORKING HOURS' SKIP 1-
+CENTER 'WEEK ENDING DATE: '_DATE - 
+RIGHT 'Page:' FORMAT 999 SQL.PNO SKIP 2
+
+break on job_title skip 1;
+
+
+column JOB_TITLE format A30
+column SName format A30
+column StaffID format A10
+
+column StaffID heading 'ID'
+column SName heading 'Name'
+column SGender heading 'Sex'
+column S_email heading 'Email'
+column SPhoneNumber heading 'Phone|Number'
+column Salary heading 'Salary(RM)'
+column EmploymentDate heading 'Hire_Date'
+
+
+select job_title,staffID, Sname, working_hour,(working_hour-40) AS "OT_Hour"
+from staff
+where working_hour-40>0
+order by job_title,staffID;
+
+compute sum label 'Total' of "OT_Hour" on job_title skip 2
+

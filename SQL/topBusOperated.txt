@@ -1,0 +1,30 @@
+set pagesize 30;
+set linesize 54;
+
+spool d:/Top5BusOperatedInJAN2018.txt
+
+alter system flush buffer_cache
+
+prompt SEARCH TOP BUS OPERATED IN MONTH
+
+accept year char prompt 'Please enter the YEAR : '
+accept month char prompt 'Please enter the MONTH : '
+accept num char prompt 'Enter number for top bus operated : '
+
+
+TTITLE CENTER 'GOGO BUS COMPANY' SKIP 1 - 
+CENTER ================================= SKIP 1 -
+CENTER'TOP &num BUS OPERATED IN &month/&year' SKIP 1- 
+RIGHT 'Page:' FORMAT 999 SQL.PNO SKIP 2
+
+break on busID skip 1
+
+select * from (select DISTINCT b.BusID, plateNumber, model, totalseat, count(destination) as "Coach(qty)"
+from schedule s, bus b
+where departureDate between '01-&month-&year' and last_day(to_Date('01-&month-&year'))
+group by b.busID, plateNumber, model, totalSeat
+order by count(destination) desc)
+where rownum <= &num;
+
+
+spool off
