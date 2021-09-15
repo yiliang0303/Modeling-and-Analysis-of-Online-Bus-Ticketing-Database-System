@@ -1,7 +1,7 @@
 # Modeling and Analysis of Online Bus Ticketing Database System
 
 A case study of database management of Bus Ticketing System.  
-SQL code is carried out to extract the data to generate a useful report.
+SQL code is carried out to extract the data and generate a useful report.
 
 Reports Generated:
 1. Top 5 Bus Operated in Jan 2018
