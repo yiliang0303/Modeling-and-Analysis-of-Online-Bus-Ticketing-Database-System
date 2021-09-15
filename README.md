@@ -1,1 +1,1 @@
-# Modeling-of-Online-Bus-Ticketing-Database-System
+# Modeling and Analysis of Online Bus Ticketing Database System
