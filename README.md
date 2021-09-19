@@ -14,4 +14,4 @@ Reports Generated:
 8. Top 2 Best Employee Sales Performance in Jun 2018
 9. Top 4 seat number reserved by customer
 10. Yearly Sales Report
-11. .... view [Report Generated](https://github.com/yiliang0303/Modeling-and-Analysis-of-Online-Bus-Ticketing-Database-System/blob/main/Output%20Report.pdf)
+11. .... [view more](https://github.com/yiliang0303/Modeling-and-Analysis-of-Online-Bus-Ticketing-Database-System/blob/main/Output%20Report.pdf)
